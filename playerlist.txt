@@ -1,0 +1,1348 @@
+Scott
+
+Smith, Reilly  (VGK)
+Kucherov, Nikita (Light)
+Theodore, Shae (VGK)
+Killhorn, Alex (light)
+Perron, David (blues)
+Schmidt, Nate (VGK)
+Palat, Ondrej (light)
+Barzal, Matthew (isl)
+Nelson, Brock (isl)
+Tarasenko, Vladimir (blues)
+Parayko, Colton (blues)
+Eberle, Jordan (Isl)
+Bailey, Josh (isl)
+Kessel, Phil (coyotes)
+
+Turner
+
+Marschessault, Jonathan {VGK)
+Coleman, Blake (light)
+Sergachey, Blake (light)
+Gourde, Yanni (light)
+Landeskog, Gabriel (ave)
+Kadri, Nazem (ave)
+Konecny, Travis(phil)
+Voracek, Jakub (phil)
+Van Riemsdyk, James (philly
+Provorov, Ivan (Philly)
+Donskoi, Joonas (ave)
+Cirelli, Anthony (light)
+Namestnikov, Vladislav (ave)
+Compher, J.T (ave)
+
+
+Bren
+
+1		Point, Brayden (C)	F	2 		2	2	2	 	 	0.6 (2)
+2		Jones, Seth (D)	D	1!		1	1	1	 	 	0.4 (10)
+3		Ovechkin, Alex (LW)	F	0x		 	 	 	 	Yes	0.5 (1)
+4		Makar, Cale (D)	D	0x		 	 	 	 	Yes	0.2 (3)
+5		Krug, Torey (D)	D	0!		 	 	 	 	Yes	0 (4)
+6		Couturier, Sean (C)	F	0x		 	 	 	 	Yes	0.1 (5)
+7		Carlson, John (D)	D	0x		 	 	 	Yes	Yes	0.1 (6)
+8		Keller, Clayton (C)	F	0x		 	 	 	 	Yes	0.1 (7)
+9		Weber, Shea (D)	D	0!		 	 	 	 	Yes	0 (8)
+10		Hall, Taylor (LW)	F	0!		 	 	 	 	Yes	0 (9)
+11		Werenski, Zach (D)	D	0x		0	 	 	 	 	0.1 (11)
+12		Byron, Paul (C)	F	0x		 	 	 	Yes	Yes	0.4 (12)
+13		Pageau, Jean-Gabriel (C)	F	0!		 	 	 	 	Yes	0 (13)
+14		Bozak, Tyler (C)
+
+Milan 
+
+1		Dubois, Pierre-Luc (C)	F	2!		2	2	2	 	 	0.4 (12)
+2		Roy, Nicolas (C)	F	1!		1	1	1	 	 	0.1 (7)
+3		Rantanen, Mikko (RW)	F	0x		 	 	 	 	Yes	0.5 (1)
+4		Pacioretty, Max (LW)	F	0x		0	 	 	 	 	0.6 (2)
+5		Karlsson, William (C)	F	0x		0	 	 	 	 	0.2 (3)
+6		Stastny, Paul (C)	F	0!		0	 	 	 	 	0 (4)
+7		Monahan, Sean (C)	F	0x		0	 	 	 	 	0.1 (5)
+8		Tkachuk, Matthew (LW)	F	0x		0	 	 	 	 	0.1 (6)
+9		Stephenson, Chandler (C)	F	0!		0	 	 	 	 	0 (8)
+10		Drouin, Jonathan (LW)	F	0!		 	 	 	 	Yes	0 (9)
+11		Gallagher , Brendan (RW)	F	0x		 	 	 	 	Yes	0.4 (10)
+12		Giordano, Mark (D)	D	0x		0	 	 	 	 	0.1 (11)
+13		Atkinson, Cam (RW)	F	0!		0	 	 	 	 	0 (13)
+14		Graves, Ryan (D)
+
+Taylor
+1		Benn, Jamie (LW)	F	1!		1	1	1	 	 	0.1 (5)
+2		Heiskanen, Miro (D)	D	1!		1	1	1	 	 	0.1 (6)
+3		Aho, Sebastian (C)	F	0x		 	 	 	 	Yes	0.5 (1)
+4		Teravainen, Teuvo (LW)	F	0x		 	 	 	 	Yes	0.6 (2)
+5		Seguin, Tyler (C)	F	0x		0	 	 	 	 	0.2 (3)
+6		Giroux, Claude (C)	F	0!		 	 	 	 	Yes	0 (4)
+7		Radulov, Alexander (RW)	F	0x		0	 	 	 	 	0.1 (7)
+8		Hintz, Roope (LW)	F	0!		0	 	 	 	 	0 (8)
+9		Niskanen, Matt (D)	D	0!		 	 	 	 	Yes	0 (9)
+10		Sanheim, Travis (D)	D	0x		 	 	 	 	Yes	0.4 (10)
+11		Necas, Martin (C)	F	0x		 	 	 	 	Yes	0.1 (11)
+12		Raffl, Michael (LW)	F	0x		 	 	 	Yes	Yes	0.4 (12)
+13		Pavelski, Joe (C)	F	0!		0	 	 	 	 	0 (13)
+14		Klingberg, John (D)
+
+Marco
+1		Backlund, Mikael (C)	F	1!		1	1	1	 	 	0.4 (10)
+2		McDonagh, Ryan (D)	D	1!		1	1	1	 	 	0.1 (11)
+3		MacKinnon, Nathan (C)	F	0x		 	 	 	 	Yes	0.5 (1)
+4		Johnson, Tyler (C)	F	0x		0	 	 	 	 	0.6 (2)
+5		Burakovsky, Andre (LW)	F	0x		 	 	 	 	Yes	0.2 (3)
+6		O'Reilly, Ryan (C)	F	0!		 	 	 	 	Yes	0 (4)
+7		Schenn, Brayden (C)	F	0x		 	 	 	 	Yes	0.1 (5)
+8		Gaudreau, Johnny (LW)	F	0x		0	 	 	 	 	0.1 (6)
+9		Lindholm, Elias (C)	F	0x		0	 	 	 	 	0.1 (7)
+10		Krejci, David (C)	F	0!		 	 	 	 	Yes	0 (8)
+11		McAvoy, Charlie (D)	D	0!		 	 	 	 	Yes	0 (9)
+12		Shattenkirk, Kevin (D)	D	0x		0	 	 	 	 	0.4 (12)
+13		DeBrusk, Jake (LW)	F	0!		 	 	 	 	Yes	0 (13)
+14		Girard, Samuel (D)
+
+Matt
+	1		Hedman, Victor (D)	D	1!		1	1	1	 	 	0.2 (3)
+2		Pastrnak, David (RW)	F	0x		 	 	 	 	Yes	0.5 (1)
+3		Marchand, Brad (LW)	F	0x		 	 	 	 	Yes	0.6 (2)
+4		Bergeron, Patrice (C)	F	0!		 	 	 	 	Yes	0 (4)
+5		Oshie, T.J. (RW)	F	0x		 	 	 	 	Yes	0.1 (5)
+6		Pettersson, Elias (LW)	F	0x		 	 	 	 	Yes	0.1 (6)
+7		Wilson, Tom (RW)	F	0x		 	 	 	 	Yes	0.1 (7)
+8		Backstrom, Nicklas (C)	F	0!		 	 	 	 	Yes	0 (8)
+9		Boeser, Brock (RW)	F	0!		 	 	 	 	Yes	0 (9)
+10		Horvat, Bo (C)	F	0x		 	 	 	 	Yes	0.4 (10)
+11		Miller, J.T. (C)	F	0x		 	 	 	 	Yes	0.1 (11)
+12		Kuznetsov, Evgeny (C)	F	0x		 	 	 	 	Yes	0.4 (12)
+13		Pearson, Tanner (LW)	F	0!		 	 	 	 	Yes	0 (13)
+14		Plekanec, Tomas (C)
+
+Steve
+1		Stone, Mark (RW)	F	0x		0	 	 	 	 	0.5 (1)
+2		Laughton, Scott (C)	F	0x		 	 	 	 	Yes	0.6 (2)
+3		Tuch, Alex (RW)	F	0x		0	 	 	 	 	0.2 (3)
+4		Hayes, Kevin (RW)	F	0!		 	 	 	 	Yes	0 (4)
+5		Cousins, Nick (C)	F	0x		0	 	 	 	 	0.1 (5)
+6		Svechnikov, Andrei (RW)	F	0x		 	 	 	 	Yes	0.1 (6)
+7		Slavin, Jaccob (D)	D	0x		 	 	 	 	Yes	0.1 (7)
+8		Schwartz, Jaden (LW)	F	0!		 	 	 	 	Yes	0 (8)
+9		Pietrangelo, Alex (D)	D	0!		 	 	 	 	Yes	0 (9)
+10		Hamilton, Dougie (D)	D	0x		 	 	 	Yes	Yes	0.4 (10)
+11		Thomas, Robert (C)	F	0x		 	 	 	 	Yes	0.1 (11)
+12		Pitlick, Tyler (RW)	F	0x		 	 	 	 	Yes	0.4 (12)
+13		Barbashev, Ivan (C)	F	0!		 	 	 	 	Yes	0 (13)
+14		Foegele, Warren (LW)
+
+
+
+
+TEAMS
+
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2020. All Rights Reserved.",
+  "teams" : [ {
+    "id" : 1,
+    "name" : "New Jersey Devils",
+    "link" : "/api/v1/teams/1",
+    "venue" : {
+      "name" : "Prudential Center",
+      "link" : "/api/v1/venues/null",
+      "city" : "Newark",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "NJD",
+    "teamName" : "Devils",
+    "locationName" : "New Jersey",
+    "firstYearOfPlay" : "1982",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 23,
+      "teamName" : "Devils",
+      "link" : "/api/v1/franchises/23"
+    },
+    "shortName" : "New Jersey",
+    "officialSiteUrl" : "http://www.newjerseydevils.com/",
+    "franchiseId" : 23,
+    "active" : true
+  }, {
+    "id" : 2,
+    "name" : "New York Islanders",
+    "link" : "/api/v1/teams/2",
+    "venue" : {
+      "id" : 5026,
+      "name" : "Barclays Center",
+      "link" : "/api/v1/venues/5026",
+      "city" : "Brooklyn",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "NYI",
+    "teamName" : "Islanders",
+    "locationName" : "New York",
+    "firstYearOfPlay" : "1972",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 22,
+      "teamName" : "Islanders",
+      "link" : "/api/v1/franchises/22"
+    },
+    "shortName" : "NY Islanders",
+    "officialSiteUrl" : "http://www.newyorkislanders.com/",
+    "franchiseId" : 22,
+    "active" : true
+  }, {
+    "id" : 3,
+    "name" : "New York Rangers",
+    "link" : "/api/v1/teams/3",
+    "venue" : {
+      "id" : 5054,
+      "name" : "Madison Square Garden",
+      "link" : "/api/v1/venues/5054",
+      "city" : "New York",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "NYR",
+    "teamName" : "Rangers",
+    "locationName" : "New York",
+    "firstYearOfPlay" : "1926",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 10,
+      "teamName" : "Rangers",
+      "link" : "/api/v1/franchises/10"
+    },
+    "shortName" : "NY Rangers",
+    "officialSiteUrl" : "http://www.newyorkrangers.com/",
+    "franchiseId" : 10,
+    "active" : true
+  }, {
+    "id" : 4,
+    "name" : "Philadelphia Flyers",
+    "link" : "/api/v1/teams/4",
+    "venue" : {
+      "id" : 5096,
+      "name" : "Wells Fargo Center",
+      "link" : "/api/v1/venues/5096",
+      "city" : "Philadelphia",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "PHI",
+    "teamName" : "Flyers",
+    "locationName" : "Philadelphia",
+    "firstYearOfPlay" : "1967",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 16,
+      "teamName" : "Flyers",
+      "link" : "/api/v1/franchises/16"
+    },
+    "shortName" : "Philadelphia",
+    "officialSiteUrl" : "http://www.philadelphiaflyers.com/",
+    "franchiseId" : 16,
+    "active" : true
+  }, {
+    "id" : 5,
+    "name" : "Pittsburgh Penguins",
+    "link" : "/api/v1/teams/5",
+    "venue" : {
+      "id" : 5034,
+      "name" : "PPG Paints Arena",
+      "link" : "/api/v1/venues/5034",
+      "city" : "Pittsburgh",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "PIT",
+    "teamName" : "Penguins",
+    "locationName" : "Pittsburgh",
+    "firstYearOfPlay" : "1967",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 17,
+      "teamName" : "Penguins",
+      "link" : "/api/v1/franchises/17"
+    },
+    "shortName" : "Pittsburgh",
+    "officialSiteUrl" : "http://pittsburghpenguins.com/",
+    "franchiseId" : 17,
+    "active" : true
+  }, {
+    "id" : 6,
+    "name" : "Boston Bruins",
+    "link" : "/api/v1/teams/6",
+    "venue" : {
+      "id" : 5085,
+      "name" : "TD Garden",
+      "link" : "/api/v1/venues/5085",
+      "city" : "Boston",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "BOS",
+    "teamName" : "Bruins",
+    "locationName" : "Boston",
+    "firstYearOfPlay" : "1924",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 6,
+      "teamName" : "Bruins",
+      "link" : "/api/v1/franchises/6"
+    },
+    "shortName" : "Boston",
+    "officialSiteUrl" : "http://www.bostonbruins.com/",
+    "franchiseId" : 6,
+    "active" : true
+  }, {
+    "id" : 7,
+    "name" : "Buffalo Sabres",
+    "link" : "/api/v1/teams/7",
+    "venue" : {
+      "id" : 5039,
+      "name" : "KeyBank Center",
+      "link" : "/api/v1/venues/5039",
+      "city" : "Buffalo",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "BUF",
+    "teamName" : "Sabres",
+    "locationName" : "Buffalo",
+    "firstYearOfPlay" : "1970",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 19,
+      "teamName" : "Sabres",
+      "link" : "/api/v1/franchises/19"
+    },
+    "shortName" : "Buffalo",
+    "officialSiteUrl" : "http://www.sabres.com/",
+    "franchiseId" : 19,
+    "active" : true
+  }, {
+    "id" : 8,
+    "name" : "Montréal Canadiens",
+    "link" : "/api/v1/teams/8",
+    "venue" : {
+      "id" : 5028,
+      "name" : "Bell Centre",
+      "link" : "/api/v1/venues/5028",
+      "city" : "Montréal",
+      "timeZone" : {
+        "id" : "America/Montreal",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "MTL",
+    "teamName" : "Canadiens",
+    "locationName" : "Montréal",
+    "firstYearOfPlay" : "1909",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 1,
+      "teamName" : "Canadiens",
+      "link" : "/api/v1/franchises/1"
+    },
+    "shortName" : "Montréal",
+    "officialSiteUrl" : "http://www.canadiens.com/",
+    "franchiseId" : 1,
+    "active" : true
+  }, {
+    "id" : 9,
+    "name" : "Ottawa Senators",
+    "link" : "/api/v1/teams/9",
+    "venue" : {
+      "id" : 5031,
+      "name" : "Canadian Tire Centre",
+      "link" : "/api/v1/venues/5031",
+      "city" : "Ottawa",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "OTT",
+    "teamName" : "Senators",
+    "locationName" : "Ottawa",
+    "firstYearOfPlay" : "1990",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 30,
+      "teamName" : "Senators",
+      "link" : "/api/v1/franchises/30"
+    },
+    "shortName" : "Ottawa",
+    "officialSiteUrl" : "http://www.ottawasenators.com/",
+    "franchiseId" : 30,
+    "active" : true
+  }, {
+    "id" : 10,
+    "name" : "Toronto Maple Leafs",
+    "link" : "/api/v1/teams/10",
+    "venue" : {
+      "name" : "Scotiabank Arena",
+      "link" : "/api/v1/venues/null",
+      "city" : "Toronto",
+      "timeZone" : {
+        "id" : "America/Toronto",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "TOR",
+    "teamName" : "Maple Leafs",
+    "locationName" : "Toronto",
+    "firstYearOfPlay" : "1917",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 5,
+      "teamName" : "Maple Leafs",
+      "link" : "/api/v1/franchises/5"
+    },
+    "shortName" : "Toronto",
+    "officialSiteUrl" : "http://www.mapleleafs.com/",
+    "franchiseId" : 5,
+    "active" : true
+  }, {
+    "id" : 12,
+    "name" : "Carolina Hurricanes",
+    "link" : "/api/v1/teams/12",
+    "venue" : {
+      "id" : 5066,
+      "name" : "PNC Arena",
+      "link" : "/api/v1/venues/5066",
+      "city" : "Raleigh",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "CAR",
+    "teamName" : "Hurricanes",
+    "locationName" : "Carolina",
+    "firstYearOfPlay" : "1979",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 26,
+      "teamName" : "Hurricanes",
+      "link" : "/api/v1/franchises/26"
+    },
+    "shortName" : "Carolina",
+    "officialSiteUrl" : "http://www.carolinahurricanes.com/",
+    "franchiseId" : 26,
+    "active" : true
+  }, {
+    "id" : 13,
+    "name" : "Florida Panthers",
+    "link" : "/api/v1/teams/13",
+    "venue" : {
+      "id" : 5027,
+      "name" : "BB&T Center",
+      "link" : "/api/v1/venues/5027",
+      "city" : "Sunrise",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "FLA",
+    "teamName" : "Panthers",
+    "locationName" : "Florida",
+    "firstYearOfPlay" : "1993",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 33,
+      "teamName" : "Panthers",
+      "link" : "/api/v1/franchises/33"
+    },
+    "shortName" : "Florida",
+    "officialSiteUrl" : "http://www.floridapanthers.com/",
+    "franchiseId" : 33,
+    "active" : true
+  }, {
+    "id" : 14,
+    "name" : "Tampa Bay Lightning",
+    "link" : "/api/v1/teams/14",
+    "venue" : {
+      "name" : "AMALIE Arena",
+      "link" : "/api/v1/venues/null",
+      "city" : "Tampa",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "TBL",
+    "teamName" : "Lightning",
+    "locationName" : "Tampa Bay",
+    "firstYearOfPlay" : "1991",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 31,
+      "teamName" : "Lightning",
+      "link" : "/api/v1/franchises/31"
+    },
+    "shortName" : "Tampa Bay",
+    "officialSiteUrl" : "http://www.tampabaylightning.com/",
+    "franchiseId" : 31,
+    "active" : true
+  }, {
+    "id" : 15,
+    "name" : "Washington Capitals",
+    "link" : "/api/v1/teams/15",
+    "venue" : {
+      "id" : 5094,
+      "name" : "Capital One Arena",
+      "link" : "/api/v1/venues/5094",
+      "city" : "Washington",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "WSH",
+    "teamName" : "Capitals",
+    "locationName" : "Washington",
+    "firstYearOfPlay" : "1974",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 24,
+      "teamName" : "Capitals",
+      "link" : "/api/v1/franchises/24"
+    },
+    "shortName" : "Washington",
+    "officialSiteUrl" : "http://www.washingtoncapitals.com/",
+    "franchiseId" : 24,
+    "active" : true
+  }, {
+    "id" : 16,
+    "name" : "Chicago Blackhawks",
+    "link" : "/api/v1/teams/16",
+    "venue" : {
+      "id" : 5092,
+      "name" : "United Center",
+      "link" : "/api/v1/venues/5092",
+      "city" : "Chicago",
+      "timeZone" : {
+        "id" : "America/Chicago",
+        "offset" : -5,
+        "tz" : "CDT"
+      }
+    },
+    "abbreviation" : "CHI",
+    "teamName" : "Blackhawks",
+    "locationName" : "Chicago",
+    "firstYearOfPlay" : "1926",
+    "division" : {
+      "id" : 16,
+      "name" : "Central",
+      "nameShort" : "CEN",
+      "link" : "/api/v1/divisions/16",
+      "abbreviation" : "C"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 11,
+      "teamName" : "Blackhawks",
+      "link" : "/api/v1/franchises/11"
+    },
+    "shortName" : "Chicago",
+    "officialSiteUrl" : "http://www.chicagoblackhawks.com/",
+    "franchiseId" : 11,
+    "active" : true
+  }, {
+    "id" : 17,
+    "name" : "Detroit Red Wings",
+    "link" : "/api/v1/teams/17",
+    "venue" : {
+      "id" : 5145,
+      "name" : "Little Caesars Arena",
+      "link" : "/api/v1/venues/5145",
+      "city" : "Detroit",
+      "timeZone" : {
+        "id" : "America/Detroit",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "DET",
+    "teamName" : "Red Wings",
+    "locationName" : "Detroit",
+    "firstYearOfPlay" : "1926",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 12,
+      "teamName" : "Red Wings",
+      "link" : "/api/v1/franchises/12"
+    },
+    "shortName" : "Detroit",
+    "officialSiteUrl" : "http://www.detroitredwings.com/",
+    "franchiseId" : 12,
+    "active" : true
+  }, {
+    "id" : 18,
+    "name" : "Nashville Predators",
+    "link" : "/api/v1/teams/18",
+    "venue" : {
+      "id" : 5030,
+      "name" : "Bridgestone Arena",
+      "link" : "/api/v1/venues/5030",
+      "city" : "Nashville",
+      "timeZone" : {
+        "id" : "America/Chicago",
+        "offset" : -5,
+        "tz" : "CDT"
+      }
+    },
+    "abbreviation" : "NSH",
+    "teamName" : "Predators",
+    "locationName" : "Nashville",
+    "firstYearOfPlay" : "1997",
+    "division" : {
+      "id" : 16,
+      "name" : "Central",
+      "nameShort" : "CEN",
+      "link" : "/api/v1/divisions/16",
+      "abbreviation" : "C"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 34,
+      "teamName" : "Predators",
+      "link" : "/api/v1/franchises/34"
+    },
+    "shortName" : "Nashville",
+    "officialSiteUrl" : "http://www.nashvillepredators.com/",
+    "franchiseId" : 34,
+    "active" : true
+  }, {
+    "id" : 19,
+    "name" : "St. Louis Blues",
+    "link" : "/api/v1/teams/19",
+    "venue" : {
+      "id" : 5076,
+      "name" : "Enterprise Center",
+      "link" : "/api/v1/venues/5076",
+      "city" : "St. Louis",
+      "timeZone" : {
+        "id" : "America/Chicago",
+        "offset" : -5,
+        "tz" : "CDT"
+      }
+    },
+    "abbreviation" : "STL",
+    "teamName" : "Blues",
+    "locationName" : "St. Louis",
+    "firstYearOfPlay" : "1967",
+    "division" : {
+      "id" : 16,
+      "name" : "Central",
+      "nameShort" : "CEN",
+      "link" : "/api/v1/divisions/16",
+      "abbreviation" : "C"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 18,
+      "teamName" : "Blues",
+      "link" : "/api/v1/franchises/18"
+    },
+    "shortName" : "St Louis",
+    "officialSiteUrl" : "http://www.stlouisblues.com/",
+    "franchiseId" : 18,
+    "active" : true
+  }, {
+    "id" : 20,
+    "name" : "Calgary Flames",
+    "link" : "/api/v1/teams/20",
+    "venue" : {
+      "id" : 5075,
+      "name" : "Scotiabank Saddledome",
+      "link" : "/api/v1/venues/5075",
+      "city" : "Calgary",
+      "timeZone" : {
+        "id" : "America/Denver",
+        "offset" : -6,
+        "tz" : "MDT"
+      }
+    },
+    "abbreviation" : "CGY",
+    "teamName" : "Flames",
+    "locationName" : "Calgary",
+    "firstYearOfPlay" : "1980",
+    "division" : {
+      "id" : 15,
+      "name" : "Pacific",
+      "nameShort" : "PAC",
+      "link" : "/api/v1/divisions/15",
+      "abbreviation" : "P"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 21,
+      "teamName" : "Flames",
+      "link" : "/api/v1/franchises/21"
+    },
+    "shortName" : "Calgary",
+    "officialSiteUrl" : "http://www.calgaryflames.com/",
+    "franchiseId" : 21,
+    "active" : true
+  }, {
+    "id" : 21,
+    "name" : "Colorado Avalanche",
+    "link" : "/api/v1/teams/21",
+    "venue" : {
+      "id" : 5064,
+      "name" : "Pepsi Center",
+      "link" : "/api/v1/venues/5064",
+      "city" : "Denver",
+      "timeZone" : {
+        "id" : "America/Denver",
+        "offset" : -6,
+        "tz" : "MDT"
+      }
+    },
+    "abbreviation" : "COL",
+    "teamName" : "Avalanche",
+    "locationName" : "Colorado",
+    "firstYearOfPlay" : "1979",
+    "division" : {
+      "id" : 16,
+      "name" : "Central",
+      "nameShort" : "CEN",
+      "link" : "/api/v1/divisions/16",
+      "abbreviation" : "C"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 27,
+      "teamName" : "Avalanche",
+      "link" : "/api/v1/franchises/27"
+    },
+    "shortName" : "Colorado",
+    "officialSiteUrl" : "http://www.coloradoavalanche.com/",
+    "franchiseId" : 27,
+    "active" : true
+  }, {
+    "id" : 22,
+    "name" : "Edmonton Oilers",
+    "link" : "/api/v1/teams/22",
+    "venue" : {
+      "id" : 5100,
+      "name" : "Rogers Place",
+      "link" : "/api/v1/venues/5100",
+      "city" : "Edmonton",
+      "timeZone" : {
+        "id" : "America/Edmonton",
+        "offset" : -6,
+        "tz" : "MDT"
+      }
+    },
+    "abbreviation" : "EDM",
+    "teamName" : "Oilers",
+    "locationName" : "Edmonton",
+    "firstYearOfPlay" : "1979",
+    "division" : {
+      "id" : 15,
+      "name" : "Pacific",
+      "nameShort" : "PAC",
+      "link" : "/api/v1/divisions/15",
+      "abbreviation" : "P"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 25,
+      "teamName" : "Oilers",
+      "link" : "/api/v1/franchises/25"
+    },
+    "shortName" : "Edmonton",
+    "officialSiteUrl" : "http://www.edmontonoilers.com/",
+    "franchiseId" : 25,
+    "active" : true
+  }, {
+    "id" : 23,
+    "name" : "Vancouver Canucks",
+    "link" : "/api/v1/teams/23",
+    "venue" : {
+      "id" : 5073,
+      "name" : "Rogers Arena",
+      "link" : "/api/v1/venues/5073",
+      "city" : "Vancouver",
+      "timeZone" : {
+        "id" : "America/Vancouver",
+        "offset" : -7,
+        "tz" : "PDT"
+      }
+    },
+    "abbreviation" : "VAN",
+    "teamName" : "Canucks",
+    "locationName" : "Vancouver",
+    "firstYearOfPlay" : "1970",
+    "division" : {
+      "id" : 15,
+      "name" : "Pacific",
+      "nameShort" : "PAC",
+      "link" : "/api/v1/divisions/15",
+      "abbreviation" : "P"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 20,
+      "teamName" : "Canucks",
+      "link" : "/api/v1/franchises/20"
+    },
+    "shortName" : "Vancouver",
+    "officialSiteUrl" : "http://www.canucks.com/",
+    "franchiseId" : 20,
+    "active" : true
+  }, {
+    "id" : 24,
+    "name" : "Anaheim Ducks",
+    "link" : "/api/v1/teams/24",
+    "venue" : {
+      "id" : 5046,
+      "name" : "Honda Center",
+      "link" : "/api/v1/venues/5046",
+      "city" : "Anaheim",
+      "timeZone" : {
+        "id" : "America/Los_Angeles",
+        "offset" : -7,
+        "tz" : "PDT"
+      }
+    },
+    "abbreviation" : "ANA",
+    "teamName" : "Ducks",
+    "locationName" : "Anaheim",
+    "firstYearOfPlay" : "1993",
+    "division" : {
+      "id" : 15,
+      "name" : "Pacific",
+      "nameShort" : "PAC",
+      "link" : "/api/v1/divisions/15",
+      "abbreviation" : "P"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 32,
+      "teamName" : "Ducks",
+      "link" : "/api/v1/franchises/32"
+    },
+    "shortName" : "Anaheim",
+    "officialSiteUrl" : "http://www.anaheimducks.com/",
+    "franchiseId" : 32,
+    "active" : true
+  }, {
+    "id" : 25,
+    "name" : "Dallas Stars",
+    "link" : "/api/v1/teams/25",
+    "venue" : {
+      "id" : 5019,
+      "name" : "American Airlines Center",
+      "link" : "/api/v1/venues/5019",
+      "city" : "Dallas",
+      "timeZone" : {
+        "id" : "America/Chicago",
+        "offset" : -5,
+        "tz" : "CDT"
+      }
+    },
+    "abbreviation" : "DAL",
+    "teamName" : "Stars",
+    "locationName" : "Dallas",
+    "firstYearOfPlay" : "1967",
+    "division" : {
+      "id" : 16,
+      "name" : "Central",
+      "nameShort" : "CEN",
+      "link" : "/api/v1/divisions/16",
+      "abbreviation" : "C"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 15,
+      "teamName" : "Stars",
+      "link" : "/api/v1/franchises/15"
+    },
+    "shortName" : "Dallas",
+    "officialSiteUrl" : "http://www.dallasstars.com/",
+    "franchiseId" : 15,
+    "active" : true
+  }, {
+    "id" : 26,
+    "name" : "Los Angeles Kings",
+    "link" : "/api/v1/teams/26",
+    "venue" : {
+      "id" : 5081,
+      "name" : "STAPLES Center",
+      "link" : "/api/v1/venues/5081",
+      "city" : "Los Angeles",
+      "timeZone" : {
+        "id" : "America/Los_Angeles",
+        "offset" : -7,
+        "tz" : "PDT"
+      }
+    },
+    "abbreviation" : "LAK",
+    "teamName" : "Kings",
+    "locationName" : "Los Angeles",
+    "firstYearOfPlay" : "1967",
+    "division" : {
+      "id" : 15,
+      "name" : "Pacific",
+      "nameShort" : "PAC",
+      "link" : "/api/v1/divisions/15",
+      "abbreviation" : "P"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 14,
+      "teamName" : "Kings",
+      "link" : "/api/v1/franchises/14"
+    },
+    "shortName" : "Los Angeles",
+    "officialSiteUrl" : "http://www.lakings.com/",
+    "franchiseId" : 14,
+    "active" : true
+  }, {
+    "id" : 28,
+    "name" : "San Jose Sharks",
+    "link" : "/api/v1/teams/28",
+    "venue" : {
+      "name" : "SAP Center at San Jose",
+      "link" : "/api/v1/venues/null",
+      "city" : "San Jose",
+      "timeZone" : {
+        "id" : "America/Los_Angeles",
+        "offset" : -7,
+        "tz" : "PDT"
+      }
+    },
+    "abbreviation" : "SJS",
+    "teamName" : "Sharks",
+    "locationName" : "San Jose",
+    "firstYearOfPlay" : "1990",
+    "division" : {
+      "id" : 15,
+      "name" : "Pacific",
+      "nameShort" : "PAC",
+      "link" : "/api/v1/divisions/15",
+      "abbreviation" : "P"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 29,
+      "teamName" : "Sharks",
+      "link" : "/api/v1/franchises/29"
+    },
+    "shortName" : "San Jose",
+    "officialSiteUrl" : "http://www.sjsharks.com/",
+    "franchiseId" : 29,
+    "active" : true
+  }, {
+    "id" : 29,
+    "name" : "Columbus Blue Jackets",
+    "link" : "/api/v1/teams/29",
+    "venue" : {
+      "id" : 5059,
+      "name" : "Nationwide Arena",
+      "link" : "/api/v1/venues/5059",
+      "city" : "Columbus",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "CBJ",
+    "teamName" : "Blue Jackets",
+    "locationName" : "Columbus",
+    "firstYearOfPlay" : "1997",
+    "division" : {
+      "id" : 18,
+      "name" : "Metropolitan",
+      "nameShort" : "Metro",
+      "link" : "/api/v1/divisions/18",
+      "abbreviation" : "M"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 36,
+      "teamName" : "Blue Jackets",
+      "link" : "/api/v1/franchises/36"
+    },
+    "shortName" : "Columbus",
+    "officialSiteUrl" : "http://www.bluejackets.com/",
+    "franchiseId" : 36,
+    "active" : true
+  }, {
+    "id" : 30,
+    "name" : "Minnesota Wild",
+    "link" : "/api/v1/teams/30",
+    "venue" : {
+      "id" : 5098,
+      "name" : "Xcel Energy Center",
+      "link" : "/api/v1/venues/5098",
+      "city" : "St. Paul",
+      "timeZone" : {
+        "id" : "America/Chicago",
+        "offset" : -5,
+        "tz" : "CDT"
+      }
+    },
+    "abbreviation" : "MIN",
+    "teamName" : "Wild",
+    "locationName" : "Minnesota",
+    "firstYearOfPlay" : "1997",
+    "division" : {
+      "id" : 16,
+      "name" : "Central",
+      "nameShort" : "CEN",
+      "link" : "/api/v1/divisions/16",
+      "abbreviation" : "C"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 37,
+      "teamName" : "Wild",
+      "link" : "/api/v1/franchises/37"
+    },
+    "shortName" : "Minnesota",
+    "officialSiteUrl" : "http://www.wild.com/",
+    "franchiseId" : 37,
+    "active" : true
+  }, {
+    "id" : 52,
+    "name" : "Winnipeg Jets",
+    "link" : "/api/v1/teams/52",
+    "venue" : {
+      "id" : 5058,
+      "name" : "Bell MTS Place",
+      "link" : "/api/v1/venues/5058",
+      "city" : "Winnipeg",
+      "timeZone" : {
+        "id" : "America/Winnipeg",
+        "offset" : -5,
+        "tz" : "CDT"
+      }
+    },
+    "abbreviation" : "WPG",
+    "teamName" : "Jets",
+    "locationName" : "Winnipeg",
+    "firstYearOfPlay" : "2011",
+    "division" : {
+      "id" : 16,
+      "name" : "Central",
+      "nameShort" : "CEN",
+      "link" : "/api/v1/divisions/16",
+      "abbreviation" : "C"
+    },
+    "conference" : {
+      "id" : 5,
+      "name" : "Western",
+      "link" : "/api/v1/conferences/5"
+    },
+    "franchise" : {
+      "franchiseId" : 35,
+      "teamName" : "Jets",
+      "link" : "/api/v1/franchises/35"
+    },
+    "shortName" : "Winnipeg",
+    "officialSiteUrl" : "http://winnipegjets.com/",
+    "franchiseId" : 35,
+    "active" : true
+  }, {
+    "id" : 53,
+    "name" : "Arizona Coyotes",
+    "link" : "/api/v1/teams/53",
+    "venue" : {
+      "id" : 5043,
+      "name" : "Gila River Arena",
+      "link" : "/api/v1/venues/5043",
+      "city" : "Glendale",
+      "timeZone" : {
+        "id" : "America/Phoenix",
+        "offset" : -7,
+        "tz" : "MST"
+      }
+    },
+ 
+ IN 
+
+2 - "New York Islanders // 6
+4 - "Philadelphia Flyers // 2
+6 - "Boston Bruins // 4
+8 - Montréal Canadiens /// 8
+12 - Carolina Hurricanes // 5
+14 - Tampa Bay Lightning // 2
+15 - Washington Capitals // 3
+16 - Chicago Blackhawks // 8 
+19 - St. Louis Blues // 4
+20 - Calgary Flames // 6
+21 - Colorado Avalanche // 2
+23 - Vancouver Canucks // 5
+25 - Dallas Stars // 3 
+53 - Arizona coyotes // 7
+54 - Vegas Golden Knights // 1
+29 - Columbus Blue Jackets // 7
+
+
+OUT
+
+26 - Los Angeles Kings
+27 - San Jose Shark
+30 - Minnesota Wild
+24 - Anaheim Ducks
+17 - Detroit Red Wings
+7 - "Buffalo Sabres 
+9 - Ottawa Senators
+13 - Florida Panthers
+18 - Nashville Predators
+
+1 - "New Jersey Devils 
+3 - "New York Rangers
+7 - "Buffalo Sabres
+9 - Ottawa Senators
