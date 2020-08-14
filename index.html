@@ -17,251 +17,25 @@
 
 <body>
 
-    <h1>2020 Pool of Pools</h1>
 
-    <script>
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8475167?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let HedmanGoals = i.stats[0].splits[0].stat.goals;
-                        let HedmanApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("HedmanGoals").innerHTML = HedmanGoals;
-                        document.getElementById("HedmanAssists").innerHTML = HedmanApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8477956?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let PastrnakGoals = i.stats[0].splits[0].stat.goals;
-                        let PastrnakApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("PastrnakGoals").innerHTML = PastrnakGoals;
-                        document.getElementById("PastrnakAssists").innerHTML = PastrnakApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8473419?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let MarchandGoals = i.stats[0].splits[0].stat.goals;
-                        let MarchandApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("MarchandGoals").innerHTML = MarchandGoals;
-                        document.getElementById("MarchandAssists").innerHTML = MarchandApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8470638?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let BergeronGoals = i.stats[0].splits[0].stat.goals;
-                        let BergeronApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("BergeronGoals").innerHTML = BergeronGoals;
-                        document.getElementById("BergeronAssists").innerHTML = BergeronApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8471698?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let oshieGoals = i.stats[0].splits[0].stat.goals;
-                        let oshieApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("oshieGoals").innerHTML = oshieGoals;
-                        document.getElementById("oshieAssists").innerHTML = oshieApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8480012?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let eliasGoals = i.stats[0].splits[0].stat.goals;
-                        let eliasApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("eliasGoals").innerHTML = eliasGoals;
-                        document.getElementById("eliasAssists").innerHTML = eliasApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8480012?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let wilsonGoals = i.stats[0].splits[0].stat.goals;
-                        let wilsonApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("wilsonGoals").innerHTML = wilsonGoals;
-                        document.getElementById("wilsonAssists").innerHTML = wilsonApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8473563?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let backstromGoals = i.stats[0].splits[0].stat.goals;
-                        let backstromApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("backstromGoals").innerHTML = backstromGoals;
-                        document.getElementById("backstromAssists").innerHTML = backstromApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8478444?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let boeserGoals = i.stats[0].splits[0].stat.goals;
-                        let boeserApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("boeserGoals").innerHTML = boeserGoals;
-                        document.getElementById("boeserAssists").innerHTML = boeserApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8477500?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let horvatGoals = i.stats[0].splits[0].stat.goals;
-                        let horvatApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("horvatGoals").innerHTML = horvatGoals;
-                        document.getElementById("horvatAssists").innerHTML = horvatApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8476468?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let millerGoals = i.stats[0].splits[0].stat.goals;
-                        let millerApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("millerGoals").innerHTML = millerGoals;
-                        document.getElementById("millerAssists").innerHTML = millerApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8476871?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let pearsonGoals = i.stats[0].splits[0].stat.goals;
-                        let pearsonApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("pearsonGoals").innerHTML = pearsonGoals;
-                        document.getElementById("pearsonAssists").innerHTML = pearsonApples;
-                    })
-                }
-
-                )
-        });
-
-        addEventListener("load", () => {
-            fetch('https://statsapi.web.nhl.com/api/v1/people/8475193?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
-                .then(response => response.json())
-                .then(function (data) {
-                    console.log(data);
-                    response = data.people;
-                    var names = response.map(function (i) {
-                        let plekanecGoals = i.stats[0].splits[0].stat.goals;
-                        let plekanecApples = i.stats[0].splits[0].stat.assists;
-
-                        document.getElementById("plekanecGoals").innerHTML = plekanecGoals;
-                        document.getElementById("plekanecAssists").innerHTML = plekanecApples;
-                    })
-                }
-
-                )
-        });
-
-        var Players = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871, 'plekanec'];
-    </script>
 
     <div class="pageWrap">
 
+        <h1>2020 Pool of Pools</h1>
+
         <h2>Matt</h2>
+        <img src="images/kcChiefs.png" alt="Chiefs">
+        <span id="totalPoints"></span>
+        <span id="totalGoals"></span>
+        <span id="totalApples"></span>
         <table>
+            <tr class="red">
+                <td>Player Name</td>
+                <td>Team</td>
+                <td>Assists</td>
+                <td>Assists</td>
+            </tr>
+
             <tr>
                 <td>Hedman, Victor</td>
                 <td>Tampa Bay</td>
@@ -269,7 +43,7 @@
                 <td>Assists: <span id="HedmanAssists"></span></td>
             </tr>
 
-            <tr>
+            <tr class="grey">
                 <td>Pastrnak, David</td>
                 <td>Boston</td>
                 <td>Goals: <span id="PastrnakGoals"></span></td>
@@ -283,7 +57,7 @@
                 <td>Assists: <span id="MarchandAssists"></span></td>
             </tr>
 
-            <tr>
+            <tr class="grey">
                 <td>Patrice Bergeron</td>
                 <td>Boston</td>
                 <td>Goals: <span id="BergeronGoals"></span></td>
@@ -297,7 +71,7 @@
                 <td>Assists: <span id="oshieAssists"></span></td>
             </tr>
 
-            <tr>
+            <tr class="grey">
                 <td>Pettersson, Elias</td>
                 <td>Vancouver</td>
                 <td>Goals: <span id="eliasGoals"></span></td>
@@ -311,7 +85,7 @@
                 <td>Assists: <span id="wilsonAssists"></span></td>
             </tr>
 
-            <tr>
+            <tr class="grey">
                 <td>Backstrom, Nicklas (C)</td>
                 <td>Washington</td>
                 <td>Goals: <span id="backstromGoals"></span></td>
@@ -325,7 +99,7 @@
                 <td>Assists: <span id="boeserAssists"></span></td>
             </tr>
 
-            <tr>
+            <tr class="grey">
                 <td>Horvat, Bo (C)</td>
                 <td>Vancouver</td>
                 <td>Goals: <span id="horvatGoals"></span></td>
@@ -339,7 +113,7 @@
                 <td>Assists: <span id="millerAssists"></span></td>
             </tr>
 
-            <tr>
+            <tr class="grey">
                 <td>Tanner Pearson</td>
                 <td>Boston</td>
                 <td>Goals: <span id="pearsonGoals"></span></td>
@@ -379,7 +153,236 @@
     </div>
 
 
+    <script>
 
+        addEventListener("load", () => {
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8475167?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let HedmanGoals = i.stats[0].splits[0].stat.goals;
+                        let HedmanApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("HedmanGoals").innerHTML = HedmanGoals;
+                        document.getElementById("HedmanAssists").innerHTML = HedmanApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8477956?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let PastrnakGoals = i.stats[0].splits[0].stat.goals;
+                        let PastrnakApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("PastrnakGoals").innerHTML = PastrnakGoals;
+                        document.getElementById("PastrnakAssists").innerHTML = PastrnakApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8473419?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let MarchandGoals = i.stats[0].splits[0].stat.goals;
+                        let MarchandApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("MarchandGoals").innerHTML = MarchandGoals;
+                        document.getElementById("MarchandAssists").innerHTML = MarchandApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8470638?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let BergeronGoals = i.stats[0].splits[0].stat.goals;
+                        let BergeronApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("BergeronGoals").innerHTML = BergeronGoals;
+                        document.getElementById("BergeronAssists").innerHTML = BergeronApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8471698?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let oshieGoals = i.stats[0].splits[0].stat.goals;
+                        let oshieApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("oshieGoals").innerHTML = oshieGoals;
+                        document.getElementById("oshieAssists").innerHTML = oshieApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8480012?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let eliasGoals = i.stats[0].splits[0].stat.goals;
+                        let eliasApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("eliasGoals").innerHTML = eliasGoals;
+                        document.getElementById("eliasAssists").innerHTML = eliasApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8480012?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let wilsonGoals = i.stats[0].splits[0].stat.goals;
+                        let wilsonApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("wilsonGoals").innerHTML = wilsonGoals;
+                        document.getElementById("wilsonAssists").innerHTML = wilsonApples;
+                    })
+                }
+
+                )
+
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8473563?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let backstromGoals = i.stats[0].splits[0].stat.goals;
+                        let backstromApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("backstromGoals").innerHTML = backstromGoals;
+                        document.getElementById("backstromAssists").innerHTML = backstromApples;
+                    })
+                }
+
+                )
+
+
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8478444?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let boeserGoals = i.stats[0].splits[0].stat.goals;
+                        let boeserApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("boeserGoals").innerHTML = boeserGoals;
+                        document.getElementById("boeserAssists").innerHTML = boeserApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8477500?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let horvatGoals = i.stats[0].splits[0].stat.goals;
+                        let horvatApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("horvatGoals").innerHTML = horvatGoals;
+                        document.getElementById("horvatAssists").innerHTML = horvatApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8476468?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let millerGoals = i.stats[0].splits[0].stat.goals;
+                        let millerApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("millerGoals").innerHTML = millerGoals;
+                        document.getElementById("millerAssists").innerHTML = millerApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8476871?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let pearsonGoals = i.stats[0].splits[0].stat.goals;
+                        let pearsonApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("pearsonGoals").innerHTML = pearsonGoals;
+                        document.getElementById("pearsonAssists").innerHTML = pearsonApples;
+                    })
+                }
+
+                )
+
+            fetch('https://statsapi.web.nhl.com/api/v1/people/8475193?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+                .then(response => response.json())
+                .then(function (data) {
+                    console.log(data);
+                    response = data.people;
+                    var names = response.map(function (i) {
+                        let plekanecGoals = i.stats[0].splits[0].stat.goals;
+                        let plekanecApples = i.stats[0].splits[0].stat.assists;
+
+                        document.getElementById("plekanecGoals").innerHTML = plekanecGoals;
+                        document.getElementById("plekanecAssists").innerHTML = plekanecApples;
+                    })
+                }
+
+                )
+
+
+            let totalGoals = pearsonGoals + millerGoals + horvatGoals + boeserGoals + backstromGoals + wilsonGoals + eliasGoals + oshieGoals + BergeronGoals + MarchandGoals + PastrnakGoals + HedmanGoals;
+
+            let totalApples = pearsonApples + millerApples + horvatApples + boeserApples + backstromApples + wilsonApples + eliasApples + oshieApples + BergeronApples + MarchandApples + PastrnakApples + HedmanApples;
+
+            let totalPoints = totalApples + totalGoals;
+
+            document.getElementById("totalGoals").innerHTML = totalGoals;
+            document.getElementById("totalAssists").innerHTML = totalApples;
+            document.getElementById("totalPoints").innerHTML = totalPoints;
+
+            console.log(pearsonApples)
+
+            var Players = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871, 'plekanec'];
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 </body>
 
