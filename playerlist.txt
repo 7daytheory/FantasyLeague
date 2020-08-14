@@ -1,135 +1,155 @@
+Teams Remaining:
+New York Islanders - 2   CHECK
+Philadelphia Flyers - 4
+Boston Bruins - 6 
+Montreal Canadiens - 8 
+Carolina Hurricanes - 12
+Tampa Bay Lightning - 14
+Washington Capitals - 15
+Chicago Blackhawks - 16
+St. Louis Blues - 19
+Calgary Flames - 20
+Colorado Avalanche - 21
+Vancouver Canucks - 24
+Dallas Stars - 25
+Columbus Blue Jackets - 29
+Vegas Golden Knights - 54
+Arizona Coyotes - 53
+
+
+
 Scott
 
-Smith, Reilly  (VGK)
-Kucherov, Nikita (Light)
-Theodore, Shae (VGK)
-Killhorn, Alex (light)
-Perron, David (blues)
-Schmidt, Nate (VGK)
-Palat, Ondrej (light)
-Barzal, Matthew (isl)
-Nelson, Brock (isl)
-Tarasenko, Vladimir (blues)
-Parayko, Colton (blues)
-Eberle, Jordan (Isl)
-Bailey, Josh (isl)
-Kessel, Phil (coyotes)
+Smith, Reilly  - Vegas
+Kucherov, Nikita - Lightning
+Theodore, Shae - Vegas
+Killhorn, Alex - Lightning
+Perron, David St. Louis Blues
+Schmidt, Nate - Vegas
+Palat, Ondrej - Lightning
+Barzal, Matthew - Islands  "id" : 8478445,
+Nelson, Brock - Islands   "id" : 8475754,
+Tarasenko, Vladimir - St. Louis Blues
+Parayko, Colton - St. Louis Blues
+Eberle, Jordan - Islands    "id" : 8474586,
+Bailey, Josh - Islands    id" : 8474573,
+Kessel, Phil - Arizona
 
 Turner
 
-Marschessault, Jonathan {VGK)
-Coleman, Blake (light)
-Sergachey, Blake (light)
-Gourde, Yanni (light)
-Landeskog, Gabriel (ave)
-Kadri, Nazem (ave)
-Konecny, Travis(phil)
-Voracek, Jakub (phil)
-Van Riemsdyk, James (philly
-Provorov, Ivan (Philly)
-Donskoi, Joonas (ave)
-Cirelli, Anthony (light)
-Namestnikov, Vladislav (ave)
-Compher, J.T (ave)
+Marschessault, Jonathan - Vegas
+Coleman, Blake - Lightning
+Sergachey, Blake - Lightning
+Gourde, Yanni - Lightning
+Landeskog, Gabriel - Avalanche
+Kadri, Nazem Avalanche
+Konecny, Travis (phil) "id" : 8478439,
+Voracek, Jakub (phil)  id" : 8478500,
+Van Riemsdyk, James (philly  id" : 8474037,
+Provorov, Ivan (Philly)  "id" : 8478500,
+Donskoi, Joonas  - Avalanche
+Cirelli, Anthony - Lightning
+Namestnikov, Vladislav - Avalanche
+Compher, J.T  - Avalanche
 
 
 Bren
 
-1		Point, Brayden (C)	F	2 		2	2	2	 	 	0.6 (2)
-2		Jones, Seth (D)	D	1!		1	1	1	 	 	0.4 (10)
-3		Ovechkin, Alex (LW)	F	0x		 	 	 	 	Yes	0.5 (1)
-4		Makar, Cale (D)	D	0x		 	 	 	 	Yes	0.2 (3)
-5		Krug, Torey (D)	D	0!		 	 	 	 	Yes	0 (4)
-6		Couturier, Sean (C)	F	0x		 	 	 	 	Yes	0.1 (5)
-7		Carlson, John (D)	D	0x		 	 	 	Yes	Yes	0.1 (6)
-8		Keller, Clayton (C)	F	0x		 	 	 	 	Yes	0.1 (7)
-9		Weber, Shea (D)	D	0!		 	 	 	 	Yes	0 (8)
-10		Hall, Taylor (LW)	F	0!		 	 	 	 	Yes	0 (9)
-11		Werenski, Zach (D)	D	0x		0	 	 	 	 	0.1 (11)
-12		Byron, Paul (C)	F	0x		 	 	 	Yes	Yes	0.4 (12)
-13		Pageau, Jean-Gabriel (C)	F	0!		 	 	 	 	Yes	0 (13)
-14		Bozak, Tyler (C)
-
+1		Point, Brayden (C)	= Lightning
+2		Jones, Seth (D) - CBJ
+3		Ovechkin, Alex (LW)	- Washington
+4		Makar, Cale (D)	- Avalanche
+5		Krug, Torey (D)	- Boston
+6		Couturier, Sean (C)	- Philly "id" : 8476461,
+7		Carlson, John (D)	-Washington
+8		Keller, Clayton (C)	- Arizona
+9		Weber, Shea (D)	- Montreal
+10		Hall, Taylor (LW)	- Arizona
+11		Werenski, Zach (D)	-CBJ
+12		Byron, Paul (C)	Montreal
+13		Pageau, Jean-Gabriel (C) Islanders   "id" : 8476419,
+14		Bozak, Tyler (C) ST.Lous Blues
+ 
 Milan 
 
-1		Dubois, Pierre-Luc (C)	F	2!		2	2	2	 	 	0.4 (12)
-2		Roy, Nicolas (C)	F	1!		1	1	1	 	 	0.1 (7)
-3		Rantanen, Mikko (RW)	F	0x		 	 	 	 	Yes	0.5 (1)
-4		Pacioretty, Max (LW)	F	0x		0	 	 	 	 	0.6 (2)
-5		Karlsson, William (C)	F	0x		0	 	 	 	 	0.2 (3)
-6		Stastny, Paul (C)	F	0!		0	 	 	 	 	0 (4)
-7		Monahan, Sean (C)	F	0x		0	 	 	 	 	0.1 (5)
-8		Tkachuk, Matthew (LW)	F	0x		0	 	 	 	 	0.1 (6)
-9		Stephenson, Chandler (C)	F	0!		0	 	 	 	 	0 (8)
-10		Drouin, Jonathan (LW)	F	0!		 	 	 	 	Yes	0 (9)
-11		Gallagher , Brendan (RW)	F	0x		 	 	 	 	Yes	0.4 (10)
-12		Giordano, Mark (D)	D	0x		0	 	 	 	 	0.1 (11)
-13		Atkinson, Cam (RW)	F	0!		0	 	 	 	 	0 (13)
-14		Graves, Ryan (D)
+1		Dubois, Pierre-Luc (C) - CBJ
+2		Roy, Nicolas (C)	- Vegas
+3		Rantanen, Mikko (RW) -Avalanche
+4		Pacioretty, Max (LW) - Vegas
+5		Karlsson, William (C)	- Vegas
+6		Stastny, Paul (C)	- Vegas
+7		Monahan, Sean (C)	- Calgary
+8		Tkachuk, Matthew (LW)	- Calgary
+9		Stephenson, Chandler - Vegas
+10		Drouin, Jonathan (LW)	- Montreal
+11		Gallagher , Brendan (RW) - Montreal
+12		Giordano, Mark (D)	Calgary
+13		Atkinson, Cam (RW)	CBJ
+14		Graves, Ryan (D) - Avalanche
 
 Taylor
-1		Benn, Jamie (LW)	F	1!		1	1	1	 	 	0.1 (5)
-2		Heiskanen, Miro (D)	D	1!		1	1	1	 	 	0.1 (6)
-3		Aho, Sebastian (C)	F	0x		 	 	 	 	Yes	0.5 (1)
-4		Teravainen, Teuvo (LW)	F	0x		 	 	 	 	Yes	0.6 (2)
-5		Seguin, Tyler (C)	F	0x		0	 	 	 	 	0.2 (3)
-6		Giroux, Claude (C)	F	0!		 	 	 	 	Yes	0 (4)
-7		Radulov, Alexander (RW)	F	0x		0	 	 	 	 	0.1 (7)
-8		Hintz, Roope (LW)	F	0!		0	 	 	 	 	0 (8)
-9		Niskanen, Matt (D)	D	0!		 	 	 	 	Yes	0 (9)
-10		Sanheim, Travis (D)	D	0x		 	 	 	 	Yes	0.4 (10)
-11		Necas, Martin (C)	F	0x		 	 	 	 	Yes	0.1 (11)
-12		Raffl, Michael (LW)	F	0x		 	 	 	Yes	Yes	0.4 (12)
-13		Pavelski, Joe (C)	F	0!		0	 	 	 	 	0 (13)
-14		Klingberg, John (D)
+1		Benn, Jamie (LW) - Dallas
+2		Heiskanen, Miro (D) - Dallas
+3		Aho, Sebastian (C)	- Carolina
+4		Teravainen, Teuvo (LW) - Carolina
+5		Seguin, Tyler (C)	- Dallas
+6		Giroux, Claude (C)	- Philly   "id" : 8473512,
+7		Radulov, Alexander (RW)	- Dallas
+8		Hintz, Roope (LW)	- Dallas
+9		Niskanen, Matt (D)	- Philly  "id" : 8471702,
+10		Sanheim, Travis (D)	- Philly  "id" : 8477948,
+11		Necas, Martin (C)	- Carolina
+12		Raffl, Michael (LW)	- Philly   id" : 8477290,
+13		Pavelski, Joe (C)	- Dallas
+14		Klingberg, John (D) - Dallas
 
 Marco
-1		Backlund, Mikael (C)	F	1!		1	1	1	 	 	0.4 (10)
-2		McDonagh, Ryan (D)	D	1!		1	1	1	 	 	0.1 (11)
-3		MacKinnon, Nathan (C)	F	0x		 	 	 	 	Yes	0.5 (1)
-4		Johnson, Tyler (C)	F	0x		0	 	 	 	 	0.6 (2)
-5		Burakovsky, Andre (LW)	F	0x		 	 	 	 	Yes	0.2 (3)
-6		O'Reilly, Ryan (C)	F	0!		 	 	 	 	Yes	0 (4)
-7		Schenn, Brayden (C)	F	0x		 	 	 	 	Yes	0.1 (5)
-8		Gaudreau, Johnny (LW)	F	0x		0	 	 	 	 	0.1 (6)
-9		Lindholm, Elias (C)	F	0x		0	 	 	 	 	0.1 (7)
-10		Krejci, David (C)	F	0!		 	 	 	 	Yes	0 (8)
-11		McAvoy, Charlie (D)	D	0!		 	 	 	 	Yes	0 (9)
-12		Shattenkirk, Kevin (D)	D	0x		0	 	 	 	 	0.4 (12)
-13		DeBrusk, Jake (LW)	F	0!		 	 	 	 	Yes	0 (13)
-14		Girard, Samuel (D)
+1		Backlund, Mikael (C)	- Calgary
+2		McDonagh, Ryan (D)	Tampa Bay
+3		MacKinnon, Nathan (C)	- Avalanche
+4		Johnson, Tyler (C) - Tampa bay
+5		Burakovsky, Andre (LW) - Avalanche
+6		O'Reilly, Ryan (C) - STL Blues
+7		Schenn, Brayden (C)	- CBJ
+8		Gaudreau, Johnny (LW)	- Calgary
+9		Lindholm, Elias (C)	- Calgary
+10		Krejci, David (C)	- Boston
+11		McAvoy, Charlie (D) - Boston
+12		Shattenkirk, Kevin (D)	- Lightning
+13		DeBrusk, Jake (LW) - Boston
+14		Girard, Samuel (D) - Avalanche
 
 Matt
-	1		Hedman, Victor (D)	D	1!		1	1	1	 	 	0.2 (3)
-2		Pastrnak, David (RW)	F	0x		 	 	 	 	Yes	0.5 (1)
-3		Marchand, Brad (LW)	F	0x		 	 	 	 	Yes	0.6 (2)
-4		Bergeron, Patrice (C)	F	0!		 	 	 	 	Yes	0 (4)
-5		Oshie, T.J. (RW)	F	0x		 	 	 	 	Yes	0.1 (5)
-6		Pettersson, Elias (LW)	F	0x		 	 	 	 	Yes	0.1 (6)
-7		Wilson, Tom (RW)	F	0x		 	 	 	 	Yes	0.1 (7)
-8		Backstrom, Nicklas (C)	F	0!		 	 	 	 	Yes	0 (8)
-9		Boeser, Brock (RW)	F	0!		 	 	 	 	Yes	0 (9)
-10		Horvat, Bo (C)	F	0x		 	 	 	 	Yes	0.4 (10)
-11		Miller, J.T. (C)	F	0x		 	 	 	 	Yes	0.1 (11)
-12		Kuznetsov, Evgeny (C)	F	0x		 	 	 	 	Yes	0.4 (12)
-13		Pearson, Tanner (LW)	F	0!		 	 	 	 	Yes	0 (13)
-14		Plekanec, Tomas (C)
+1		Hedman, Victor (D)	- Lightning
+2		Pastrnak, David (RW)	- Boston
+3		Marchand, Brad (LW)	- Boston
+4		Bergeron, Patrice (C) - Boton
+5		Oshie, T.J. (RW)	- Wasington
+6		Pettersson, Elias - Vancounver
+7		Wilson, Tom (RW)	- Wasington
+8		Backstrom, Nicklas (C)	- washingtoin
+9		Boeser, Brock (RW)	- Vancounver
+10		Horvat, Bo (C)	- Vancounver
+11		Miller, J.T. (C)	Vancouncer
+12		Kuznetsov, Evgeny (C)	Washington
+13		Pearson, Tanner (LW) - Vanouncer
+14		Plekanec, Tomas (C) - Montreal
 
 Steve
-1		Stone, Mark (RW)	F	0x		0	 	 	 	 	0.5 (1)
-2		Laughton, Scott (C)	F	0x		 	 	 	 	Yes	0.6 (2)
-3		Tuch, Alex (RW)	F	0x		0	 	 	 	 	0.2 (3)
-4		Hayes, Kevin (RW)	F	0!		 	 	 	 	Yes	0 (4)
-5		Cousins, Nick (C)	F	0x		0	 	 	 	 	0.1 (5)
-6		Svechnikov, Andrei (RW)	F	0x		 	 	 	 	Yes	0.1 (6)
-7		Slavin, Jaccob (D)	D	0x		 	 	 	 	Yes	0.1 (7)
-8		Schwartz, Jaden (LW)	F	0!		 	 	 	 	Yes	0 (8)
-9		Pietrangelo, Alex (D)	D	0!		 	 	 	 	Yes	0 (9)
-10		Hamilton, Dougie (D)	D	0x		 	 	 	Yes	Yes	0.4 (10)
-11		Thomas, Robert (C)	F	0x		 	 	 	 	Yes	0.1 (11)
-12		Pitlick, Tyler (RW)	F	0x		 	 	 	 	Yes	0.4 (12)
-13		Barbashev, Ivan (C)	F	0!		 	 	 	 	Yes	0 (13)
-14		Foegele, Warren (LW)
+1		Stone, Mark (RW) -Vegas
+2		Laughton, Scott (C)	 - Philly   "id" : 8476872,
+3		Tuch, Alex (RW)	- Vegas
+4		Hayes, Kevin (RW) - Philly   "id" : 8475763,
+5		Cousins, Nick (C)	- Vegas
+6		Svechnikov, Andrei (RW)	- Carolina
+7		Slavin, Jaccob (D)	- Carolina
+8		Schwartz, Jaden (LW)	- Blue
+9		Pietrangelo, Alex (D)	- Blue
+10		Hamilton, Dougie (D)	- Carolina
+11		Thomas, Robert (C)	- St.Lous
+12		Pitlick, Tyler (RW)	- Philly id" : 8475752,
+13    Babrsgaev, Ivan - Blues
+14		Foegele, Warren (LW)   - Carolina
 
 
 
