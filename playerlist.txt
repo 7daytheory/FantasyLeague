@@ -1,10 +1,10 @@
 Teams Remaining:
 New York Islanders - 2   CHECK
-Philadelphia Flyers - 4
-Boston Bruins - 6 
-Montreal Canadiens - 8 
-Carolina Hurricanes - 12
-Tampa Bay Lightning - 14
+Philadelphia Flyers - 4   CHECK
+Boston Bruins - 6  CHECK
+Montreal Canadiens - 8   CHECK mins Plekanec
+Carolina Hurricanes - 12    CHECK
+Tampa Bay Tampa Bay - 14 CHECK
 Washington Capitals - 15
 Chicago Blackhawks - 16
 St. Louis Blues - 19
@@ -21,12 +21,12 @@ Arizona Coyotes - 53
 Scott
 
 Smith, Reilly  - Vegas
-Kucherov, Nikita - Lightning
+Kucherov, Nikita - Tampa Bay
 Theodore, Shae - Vegas
-Killhorn, Alex - Lightning
+Killhorn, Alex - Tampa Bay
 Perron, David St. Louis Blues
 Schmidt, Nate - Vegas
-Palat, Ondrej - Lightning
+Palat, Ondrej - Tampa Bay
 Barzal, Matthew - Islands  "id" : 8478445,
 Nelson, Brock - Islands   "id" : 8475754,
 Tarasenko, Vladimir - St. Louis Blues
@@ -38,9 +38,9 @@ Kessel, Phil - Arizona
 Turner
 
 Marschessault, Jonathan - Vegas
-Coleman, Blake - Lightning
-Sergachey, Blake - Lightning
-Gourde, Yanni - Lightning
+Coleman, Blake - Tampa Bay - "id" : 8476399,
+Sergachey, Blake - Tampa Bay  "id" : 8479410,   (DDOUBLE CHECK)
+Gourde, Yanni - Tampa Bay   "id" : 8476826,
 Landeskog, Gabriel - Avalanche
 Kadri, Nazem Avalanche
 Konecny, Travis (phil) "id" : 8478439,
@@ -48,25 +48,25 @@ Voracek, Jakub (phil)  id" : 8478500,
 Van Riemsdyk, James (philly  id" : 8474037,
 Provorov, Ivan (Philly)  "id" : 8478500,
 Donskoi, Joonas  - Avalanche
-Cirelli, Anthony - Lightning
+Cirelli, Anthony - Tampa Bay   "id" : 8478519,
 Namestnikov, Vladislav - Avalanche
 Compher, J.T  - Avalanche
 
 
 Bren
 
-1		Point, Brayden (C)	= Lightning
+1		Point, Brayden (C)	= Tampa Bay
 2		Jones, Seth (D) - CBJ
 3		Ovechkin, Alex (LW)	- Washington
 4		Makar, Cale (D)	- Avalanche
-5		Krug, Torey (D)	- Boston
+5		Krug, Torey (D)	- Boston   "id" : 8476792,
 6		Couturier, Sean (C)	- Philly "id" : 8476461,
 7		Carlson, John (D)	-Washington
 8		Keller, Clayton (C)	- Arizona
-9		Weber, Shea (D)	- Montreal
+9		Weber, Shea (D)	- Montreal   id" : 8470642,
 10		Hall, Taylor (LW)	- Arizona
 11		Werenski, Zach (D)	-CBJ
-12		Byron, Paul (C)	Montreal
+12		Byron, Paul (C)	Montreal    id" : 8474038,
 13		Pageau, Jean-Gabriel (C) Islanders   "id" : 8476419,
 14		Bozak, Tyler (C) ST.Lous Blues
  
@@ -81,8 +81,8 @@ Milan
 7		Monahan, Sean (C)	- Calgary
 8		Tkachuk, Matthew (LW)	- Calgary
 9		Stephenson, Chandler - Vegas
-10		Drouin, Jonathan (LW)	- Montreal
-11		Gallagher , Brendan (RW) - Montreal
+10		Drouin, Jonathan (LW)	- Montreal  "id" : 8477494,
+11		Gallagher , Brendan (RW) - Montreal   "id" : 8475848,
 12		Giordano, Mark (D)	Calgary
 13		Atkinson, Cam (RW)	CBJ
 14		Graves, Ryan (D) - Avalanche
@@ -90,50 +90,50 @@ Milan
 Taylor
 1		Benn, Jamie (LW) - Dallas
 2		Heiskanen, Miro (D) - Dallas
-3		Aho, Sebastian (C)	- Carolina
-4		Teravainen, Teuvo (LW) - Carolina
+3		Aho, Sebastian (C)	- Carolina    "id" : 8478427,
+4		Teravainen, Teuvo (LW) - Carolina   "id" : 8476882,
 5		Seguin, Tyler (C)	- Dallas
 6		Giroux, Claude (C)	- Philly   "id" : 8473512,
 7		Radulov, Alexander (RW)	- Dallas
 8		Hintz, Roope (LW)	- Dallas
 9		Niskanen, Matt (D)	- Philly  "id" : 8471702,
 10		Sanheim, Travis (D)	- Philly  "id" : 8477948,
-11		Necas, Martin (C)	- Carolina
+11		Necas, Martin (C)	- Carolina   "id" : 8480039,
 12		Raffl, Michael (LW)	- Philly   id" : 8477290,
 13		Pavelski, Joe (C)	- Dallas
 14		Klingberg, John (D) - Dallas
 
 Marco
 1		Backlund, Mikael (C)	- Calgary
-2		McDonagh, Ryan (D)	Tampa Bay
+2		McDonagh, Ryan (D)	Tampa Bay   "id" : 8474151,
 3		MacKinnon, Nathan (C)	- Avalanche
-4		Johnson, Tyler (C) - Tampa bay
+4		Johnson, Tyler (C) - Tampa bay   "id" : 8474870,
 5		Burakovsky, Andre (LW) - Avalanche
 6		O'Reilly, Ryan (C) - STL Blues
 7		Schenn, Brayden (C)	- CBJ
 8		Gaudreau, Johnny (LW)	- Calgary
 9		Lindholm, Elias (C)	- Calgary
-10		Krejci, David (C)	- Boston
-11		McAvoy, Charlie (D) - Boston
-12		Shattenkirk, Kevin (D)	- Lightning
-13		DeBrusk, Jake (LW) - Boston
+10		Krejci, David (C)	- Boston   "id" : 8471276,
+11		McAvoy, Charlie (D) - Boston   "id" : 8479325,
+12		Shattenkirk, Kevin (D)	- Tampa Bay   id" : 8474031,
+13		DeBrusk, Jake (LW) - Boston   "id" : 8478498,
 14		Girard, Samuel (D) - Avalanche
 
 Matt
-1		Hedman, Victor (D)	- Lightning
-2		Pastrnak, David (RW)	- Boston
-3		Marchand, Brad (LW)	- Boston
-4		Bergeron, Patrice (C) - Boton
-5		Oshie, T.J. (RW)	- Wasington
+1		Hedman, Victor (D)	- Tampa Bay    "id" : 8475167,
+2		Pastrnak, David (RW)	- Boston    "id" : 8477956,
+3		Marchand, Brad (LW)	- Boston   id" : 8473419,
+4		Bergeron, Patrice (C) - Boston  "id" : 8470638,
+5		Oshie, T.J. (RW)	- Washington
 6		Pettersson, Elias - Vancounver
-7		Wilson, Tom (RW)	- Wasington
-8		Backstrom, Nicklas (C)	- washingtoin
+7		Wilson, Tom (RW)	- Washington
+8		Backstrom, Nicklas (C)	- Washington
 9		Boeser, Brock (RW)	- Vancounver
 10		Horvat, Bo (C)	- Vancounver
 11		Miller, J.T. (C)	Vancouncer
 12		Kuznetsov, Evgeny (C)	Washington
 13		Pearson, Tanner (LW) - Vanouncer
-14		Plekanec, Tomas (C) - Montreal
+14		Plekanec, Tomas (C) - Montreal    id = ??????
 
 Steve
 1		Stone, Mark (RW) -Vegas
@@ -141,15 +141,15 @@ Steve
 3		Tuch, Alex (RW)	- Vegas
 4		Hayes, Kevin (RW) - Philly   "id" : 8475763,
 5		Cousins, Nick (C)	- Vegas
-6		Svechnikov, Andrei (RW)	- Carolina
-7		Slavin, Jaccob (D)	- Carolina
+6		Svechnikov, Andrei (RW)	- Carolina   "id" : 8480830,
+7		Slavin, Jaccob (D)	- Carolina    "id" : 8476958,
 8		Schwartz, Jaden (LW)	- Blue
 9		Pietrangelo, Alex (D)	- Blue
-10		Hamilton, Dougie (D)	- Carolina
+10		Hamilton, Dougie (D)	- Carolina   "id" : 8476462,
 11		Thomas, Robert (C)	- St.Lous
 12		Pitlick, Tyler (RW)	- Philly id" : 8475752,
 13    Babrsgaev, Ivan - Blues
-14		Foegele, Warren (LW)   - Carolina
+14		Foegele, Warren (LW)   - Carolina     "id" : 8477998,
 
 
 
@@ -638,7 +638,7 @@ TEAMS
     "active" : true
   }, {
     "id" : 14,
-    "name" : "Tampa Bay Lightning",
+    "name" : "Tampa Bay Tampa Bay",
     "link" : "/api/v1/teams/14",
     "venue" : {
       "name" : "AMALIE Arena",
@@ -651,7 +651,7 @@ TEAMS
       }
     },
     "abbreviation" : "TBL",
-    "teamName" : "Lightning",
+    "teamName" : "Tampa Bay",
     "locationName" : "Tampa Bay",
     "firstYearOfPlay" : "1991",
     "division" : {
@@ -668,11 +668,11 @@ TEAMS
     },
     "franchise" : {
       "franchiseId" : 31,
-      "teamName" : "Lightning",
+      "teamName" : "Tampa Bay",
       "link" : "/api/v1/franchises/31"
     },
     "shortName" : "Tampa Bay",
-    "officialSiteUrl" : "http://www.tampabaylightning.com/",
+    "officialSiteUrl" : "http://www.tampabayTampa Bay.com/",
     "franchiseId" : 31,
     "active" : true
   }, {
@@ -1337,7 +1337,7 @@ TEAMS
 6 - "Boston Bruins // 4
 8 - Montréal Canadiens /// 8
 12 - Carolina Hurricanes // 5
-14 - Tampa Bay Lightning // 2
+14 - Tampa Bay Tampa Bay // 2
 15 - Washington Capitals // 3
 16 - Chicago Blackhawks // 8 
 19 - St. Louis Blues // 4
