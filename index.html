@@ -100,7 +100,7 @@
 
     </div>
     <script>
-
+        let grey = true;
 
         const scottPlayers = [8475191, 8476453, 8477447, 8473986, 8474102, 8477220, 8476292, 8478445, 8475754, 8475765, 8476892, 8474586, 8474573, 8473548];
 
@@ -119,19 +119,19 @@
         const mattPlayers = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871];
 
         addEventListener("load", () => {
+            $('#matt').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+
             mattPlayers.forEach(playerid => {
                 console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -142,25 +142,30 @@
                             mattTotal = totalGinos + totalApples;
 
 
-                            $('#matt').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + mattTotal + "</td></tr > ");
+                            if (grey == true) {
+                                $('#matt').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + mattTotal + "</td></tr > ");
+
+                            } else {
+                                $('#matt').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + mattTotal + "</td></tr > ");
+                            }
                         })
 
                     })
             })
+
+            $('#headers').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             scottPlayers.forEach(playerid => {
                 console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -171,25 +176,30 @@
                             scottTotal = totalGinos + totalApples;
 
 
-                            $('#scott').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + scottTotal + "</td></tr > ");
+                            if (grey == true) {
+                                $('#scott').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + scottTotal + "</td></tr > ");
+
+                            } else {
+                                $('#scott').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + scottTotal + "</td></tr > ");
+                            }
                         })
 
                     })
             })
+
+            $('#turner').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             turnerPlayers.forEach(playerid => {
                 console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -200,25 +210,30 @@
                             turnerTotal = totalGinos + totalApples;
 
 
-                            $('#turner').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + turnerTotal + "</td></tr > ");
+                            if (grey == true) {
+                                $('#turner').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + turnerTotal + "</td></tr > ");
+
+                            } else {
+                                $('#turner').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + turnerTotal + "</td></tr > ");
+                            }
                         })
 
                     })
             })
+
+            $('#taylor').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             taylorPlayers.forEach(playerid => {
                 console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -229,25 +244,30 @@
                             taylorTotal = totalGinos + totalApples;
 
 
-                            $('#taylor').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + taylorTotal + "</td></tr > ");
+                            if (grey == true) {
+                                $('#taylor').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + taylorTotal + "</td></tr > ");
+
+                            } else {
+                                $('#taylor').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + taylorTotal + "</td></tr > ");
+                            }
                         })
 
                     })
             })
+
+            $('#steve').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             stevePlayers.forEach(playerid => {
                 console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -258,25 +278,30 @@
                             steveTotal = totalGinos + totalApples;
 
 
-                            $('#steve').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + steveTotal + "</td></tr > ");
+                            if (grey == true) {
+                                $('#steve').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + steveTotal + "</td></tr > ");
+
+                            } else {
+                                $('#steve').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + steveTotal + "</td></tr > ");
+                            }
                         })
 
                     })
             })
+
+            $('#bren').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             brenPlayers.forEach(playerid => {
                 console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -286,26 +311,32 @@
 
                             brenTotal = totalGinos + totalApples;
 
+                            console.log("Grey: " + grey)
 
-                            $('#bren').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + brenTotal + "</td></tr > ");
+                            if (grey == true) {
+                                $('#bren').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + brenTotal + "</td></tr > ");
+
+                            } else {
+                                $('#bren').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + brenTotal + "</td></tr > ");
+                            }
                         })
+
 
                     })
             })
 
+            $('#milan').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+
             milanPlayers.forEach(playerid => {
-                console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -316,25 +347,31 @@
                             milanTotal = totalGinos + totalApples;
 
 
-                            $('#milan').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + milanTotal + "</td></tr > ");
+                            if (grey == true) {
+                                $('#milan').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + milanTotal + "</td></tr > ");
+
+                            } else {
+                                $('#milan').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + milanTotal + "</td></tr > ");
+                            }
                         })
 
                     })
             })
+
+
+            $('#marco').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             marcoPlayers.forEach(playerid => {
                 console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
-                        console.log(data);
                         response = data.people;
                         response.map(function (i) {
-                            var grey;
-                            if (grey === 1) {
-                                grey = 0;
+                            if (grey == true) {
+                                grey = false;
                             } else {
-                                grey = 1;
+                                grey = true;
                             }
 
                             var team = i.currentTeam.name;
@@ -344,8 +381,17 @@
 
                             marcoTotal = totalGinos + totalApples;
 
+                            marcoTotalTest = ++marcoTotal;
 
-                            $('#marco').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + marcoTotal + "</td></tr > ");
+                            console.log("TEST - Marco :" + marcoTotalTest);
+
+
+                            if (grey == true) {
+                                $('#marco').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + marcoTotal + "</td></tr > ");
+
+                            } else {
+                                $('#marco').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + marcoTotal + "</td></tr > ");
+                            }
                         })
 
                     })
