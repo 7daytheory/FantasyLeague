@@ -48,3 +48,10 @@ img {
     clear: none;
     float: right;
 }
+
+.green {
+    margin-top: 15px;
+    background: #d9ffb3;
+    
+    color: #333;
+}

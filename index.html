@@ -25,9 +25,9 @@
 
         <h2>Matt</h2>
         <img src="images/kcChiefs.png" alt="Chiefs">
-        <span id="totalPoints"></span>
-        <span id="totalGoals"></span>
-        <span id="totalApples"></span>
+        <div id="totalPoints"></div>
+        <div id="totalGoals"></div>
+        <div id="totalAssists"></div>
         <table>
             <tr class="red">
                 <td>Player Name</td>
@@ -39,131 +39,124 @@
             <tr>
                 <td>Hedman, Victor</td>
                 <td>Tampa Bay</td>
-                <td>Goals: <span id="HedmanGoals"></span></td>
-                <td>Assists: <span id="HedmanAssists"></span></td>
+                <td><span id="HedmanGoals"></span></td>
+                <td><span id="HedmanAssists"></span></td>
             </tr>
 
             <tr class="grey">
                 <td>Pastrnak, David</td>
                 <td>Boston</td>
-                <td>Goals: <span id="PastrnakGoals"></span></td>
-                <td>Assists: <span id="PastrnakAssists"></span></td>
+                <td><span id="PastrnakGoals"></span></td>
+                <td><span id="PastrnakAssists"></span></td>
             </tr>
 
             <tr>
                 <td>Marchand, Brad</td>
                 <td>Boston</td>
-                <td>Goals: <span id="MarchandGoals"></span></td>
-                <td>Assists: <span id="MarchandAssists"></span></td>
+                <td><span id="MarchandGoals"></span></td>
+                <td> <span id="MarchandAssists"></span></td>
             </tr>
 
             <tr class="grey">
                 <td>Patrice Bergeron</td>
                 <td>Boston</td>
-                <td>Goals: <span id="BergeronGoals"></span></td>
-                <td>Assists: <span id="BergeronAssists"></span></td>
+                <td><span id="BergeronGoals"></span></td>
+                <td> <span id="BergeronAssists"></span></td>
             </tr>
 
             <tr>
                 <td>Oshie, TJ</td>
                 <td>Washington</td>
-                <td>Goals: <span id="oshieGoals"></span></td>
-                <td>Assists: <span id="oshieAssists"></span></td>
+                <td><span id="oshieGoals"></span></td>
+                <td> <span id="oshieAssists"></span></td>
             </tr>
 
             <tr class="grey">
                 <td>Pettersson, Elias</td>
                 <td>Vancouver</td>
-                <td>Goals: <span id="eliasGoals"></span></td>
-                <td>Assists: <span id="eliasAssists"></span></td>
+                <td><span id="eliasGoals"></span></td>
+                <td> <span id="eliasAssists"></span></td>
             </tr>
 
             <tr>
                 <td>Wilson, Tom</td>
                 <td>Washington</td>
-                <td>Goals: <span id="wilsonGoals"></span></td>
-                <td>Assists: <span id="wilsonAssists"></span></td>
+                <td><span id="wilsonGoals"></span></td>
+                <td> <span id="wilsonAssists"></span></td>
             </tr>
 
             <tr class="grey">
                 <td>Backstrom, Nicklas (C)</td>
                 <td>Washington</td>
-                <td>Goals: <span id="backstromGoals"></span></td>
-                <td>Assists: <span id="backstromAssists"></span></td>
+                <td><span id="backstromGoals"></span></td>
+                <td> <span id="backstromAssists"></span></td>
             </tr>
 
             <tr>
                 <td>Boeser, Brock</td>
                 <td>Vancouver</td>
-                <td>Goals: <span id="boeserGoals"></span></td>
-                <td>Assists: <span id="boeserAssists"></span></td>
+                <td><span id="boeserGoals"></span></td>
+                <td> <span id="boeserAssists"></span></td>
             </tr>
 
             <tr class="grey">
                 <td>Horvat, Bo (C)</td>
                 <td>Vancouver</td>
-                <td>Goals: <span id="horvatGoals"></span></td>
-                <td>Assists: <span id="horvatAssists"></span></td>
+                <td><span id="horvatGoals"></span></td>
+                <td> <span id="horvatAssists"></span></td>
             </tr>
 
             <tr>
                 <td>J.t Miller</td>
                 <td>Boston</td>
-                <td>Goals: <span id="millerGoals"></span></td>
-                <td>Assists: <span id="millerAssists"></span></td>
+                <td><span id="millerGoals"></span></td>
+                <td> <span id="millerAssists"></span></td>
             </tr>
 
             <tr class="grey">
                 <td>Tanner Pearson</td>
                 <td>Boston</td>
-                <td>Goals: <span id="pearsonGoals"></span></td>
-                <td>Assists: <span id="pearsonAssists"></span></td>
+                <td><span id="pearsonGoals"></span></td>
+                <td> <span id="pearsonAssists"></span></td>
             </tr>
 
             <tr>
                 <td>Tomas Plekanec</td>
                 <td>Boston</td>
-                <td>Goals: <span id="plekanecGoals"></span></td>
-                <td>Assists: <span id="plekanecAssists"></span></td>
+                <td><span id="plekanecGoals"></span></td>
+                <td> <span id="plekanecAssists"></span></td>
             </tr>
 
-            <script>
+            <!-- var Players = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871, 'plekanec']; -->
 
-                var getJSON = function (url, callback) {
-                    var xhr = new XMLHttpRequest();
-                    xhr.open('GET', url, true);
-                    xhr.responseType = 'json';
-                    xhr.onload = function () {
-                        var status = xhr.status;
-                        if (status === 200) {
-                            callback(null, xhr.response);
-                        } else {
-                            callback(status, xhr.response);
-                        }
-                    };
-                    xhr.send();
-                };
-
-                var Players = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871, 'plekanec'];
-            </script>
-
+            <tr class="green">
+                <td>Totals</td>
+                <td>Goals : </td>
+                <td>Assists :<span id="plekanecGoals"></span></td>
+                <td>Total Points : <span id="plekanecAssists"></span></td>
+            </tr>
 
         </table>
+
+
 
     </div>
 
 
     <script>
-
+        var totalPoints;
+        var totalGoals;
+        var totalApples;
         addEventListener("load", () => {
             fetch('https://statsapi.web.nhl.com/api/v1/people/8475167?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                 .then(response => response.json())
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let HedmanGoals = i.stats[0].splits[0].stat.goals;
                         let HedmanApples = i.stats[0].splits[0].stat.assists;
+
 
                         document.getElementById("HedmanGoals").innerHTML = HedmanGoals;
                         document.getElementById("HedmanAssists").innerHTML = HedmanApples;
@@ -177,7 +170,7 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let PastrnakGoals = i.stats[0].splits[0].stat.goals;
                         let PastrnakApples = i.stats[0].splits[0].stat.assists;
 
@@ -193,9 +186,10 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let MarchandGoals = i.stats[0].splits[0].stat.goals;
                         let MarchandApples = i.stats[0].splits[0].stat.assists;
+
 
                         document.getElementById("MarchandGoals").innerHTML = MarchandGoals;
                         document.getElementById("MarchandAssists").innerHTML = MarchandApples;
@@ -209,7 +203,7 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let BergeronGoals = i.stats[0].splits[0].stat.goals;
                         let BergeronApples = i.stats[0].splits[0].stat.assists;
 
@@ -225,7 +219,7 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let oshieGoals = i.stats[0].splits[0].stat.goals;
                         let oshieApples = i.stats[0].splits[0].stat.assists;
 
@@ -241,7 +235,7 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let eliasGoals = i.stats[0].splits[0].stat.goals;
                         let eliasApples = i.stats[0].splits[0].stat.assists;
 
@@ -257,7 +251,7 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let wilsonGoals = i.stats[0].splits[0].stat.goals;
                         let wilsonApples = i.stats[0].splits[0].stat.assists;
 
@@ -274,7 +268,7 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let backstromGoals = i.stats[0].splits[0].stat.goals;
                         let backstromApples = i.stats[0].splits[0].stat.assists;
 
@@ -292,7 +286,7 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let boeserGoals = i.stats[0].splits[0].stat.goals;
                         let boeserApples = i.stats[0].splits[0].stat.assists;
 
@@ -308,12 +302,13 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let horvatGoals = i.stats[0].splits[0].stat.goals;
                         let horvatApples = i.stats[0].splits[0].stat.assists;
 
                         document.getElementById("horvatGoals").innerHTML = horvatGoals;
                         document.getElementById("horvatAssists").innerHTML = horvatApples;
+
                     })
                 }
 
@@ -324,12 +319,13 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let millerGoals = i.stats[0].splits[0].stat.goals;
                         let millerApples = i.stats[0].splits[0].stat.assists;
 
                         document.getElementById("millerGoals").innerHTML = millerGoals;
                         document.getElementById("millerAssists").innerHTML = millerApples;
+
                     })
                 }
 
@@ -340,12 +336,13 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let pearsonGoals = i.stats[0].splits[0].stat.goals;
                         let pearsonApples = i.stats[0].splits[0].stat.assists;
 
                         document.getElementById("pearsonGoals").innerHTML = pearsonGoals;
                         document.getElementById("pearsonAssists").innerHTML = pearsonApples;
+
                     })
                 }
 
@@ -356,29 +353,51 @@
                 .then(function (data) {
                     console.log(data);
                     response = data.people;
-                    var names = response.map(function (i) {
+                    response.map(function (i) {
                         let plekanecGoals = i.stats[0].splits[0].stat.goals;
                         let plekanecApples = i.stats[0].splits[0].stat.assists;
 
                         document.getElementById("plekanecGoals").innerHTML = plekanecGoals;
                         document.getElementById("plekanecAssists").innerHTML = plekanecApples;
+
                     })
                 }
 
                 )
 
+            var g1 = document.getElementById("BergeronGoals").innerHTML;
+            var a1 = document.getElementById("BergeronAssists").innerHTML;
+            var g2 = document.getElementById("MarchandGoals").innerHTML;
+            var a2 = document.getElementById("MarchandAssists").innerHTML;
+            var g3 = document.getElementById("PastrnakGoals").innerHTML;
+            var a3 = document.getElementById("PastrnakAssists").innerHTML;
+            var g4 = document.getElementById("HedmanGoals").innerHTML;
+            var a4 = document.getElementById("HedmanAssists").innerHTML;
+            var g5 = document.getElementById("oshieGoals").innerHTML;
+            var a5 = document.getElementById("oshieAssists").innerHTML;
+            var g6 = document.getElementById("eliasGoals").innerHTML;
+            var a6 = document.getElementById("eliasAssists").innerHTML;
+            var g7 = document.getElementById("wilsonGoals").innerHTML;
+            var a7 = document.getElementById("wilsonAssists").innerHTML;
+            var g8 = document.getElementById("backstromGoals").innerHTML;
+            var a8 = document.getElementById("backstromAssists").innerHTML;
+            var g9 = document.getElementById("boeserGoals").innerHTML;
+            var a9 = document.getElementById("boeserAssists").innerHTML;
+            var g10 = document.getElementById("millerGoals").innerHTML;
+            var a10 = document.getElementById("millerAssists").innerHTML;
+            var g11 = document.getElementById("pearsonGoals").innerHTML;
+            var a11 = document.getElementById("pearsonAssists").innerHTML;
+            var g12 = document.getElementById("plekanecGoals").innerHTML;
+            var a12 = document.getElementById("plekanecAssists").innerHTML;
+            var g13 = document.getElementById("horvatGoals").innerHTML;
+            var a13 = document.getElementById("horvatAssists").innerHTML;
 
-            let totalGoals = pearsonGoals + millerGoals + horvatGoals + boeserGoals + backstromGoals + wilsonGoals + eliasGoals + oshieGoals + BergeronGoals + MarchandGoals + PastrnakGoals + HedmanGoals;
-
-            let totalApples = pearsonApples + millerApples + horvatApples + boeserApples + backstromApples + wilsonApples + eliasApples + oshieApples + BergeronApples + MarchandApples + PastrnakApples + HedmanApples;
-
-            let totalPoints = totalApples + totalGoals;
+            totalAssists = Number(pearsonGoals) + Number(pearsonGoals) + Number(pearsonGoals);
+            totalGoals = 40;
 
             document.getElementById("totalGoals").innerHTML = totalGoals;
-            document.getElementById("totalAssists").innerHTML = totalApples;
-            document.getElementById("totalPoints").innerHTML = totalPoints;
-
-            console.log(pearsonApples)
+            document.getElementById("totalAssists").innerHTML = totalAssists;
+            document.getElementById("totalPoints").innerHTML = total;
 
             var Players = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871, 'plekanec'];
         });
