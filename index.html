@@ -102,6 +102,39 @@
     <script>
         let grey = true;
 
+        let assistsTotal = 0;
+        let goalsTotal = 0;
+
+        let scottassistsTotal = 0;
+        let scottgoalsTotal = 0;
+
+        let steveassistsTotal = 0;
+        let stevegoalsTotal = 0;
+
+        let taylorassistsTotal = 0;
+        let taylorgoalsTotal = 0;
+
+        let brenassistsTotal = 0;
+        let brengoalsTotal = 0;
+
+        let milanassistsTotal = 0;
+        let milangoalsTotal = 0;
+
+        let marcoassistsTotal = 0;
+        let marcogoalsTotal = 0;
+
+        let turnerassistsTotal = 0;
+        let turnergoalsTotal = 0;
+
+        let mattRuns = 0;
+        let scottRuns = 0;
+        let steveRuns = 0;
+        let taylorRuns = 0;
+        let brenRuns = 0;
+        let milanRuns = 0;
+        let marcoRuns = 0;
+        let turnerRuns = 0;
+
         const scottPlayers = [8475191, 8476453, 8477447, 8473986, 8474102, 8477220, 8476292, 8478445, 8475754, 8475765, 8476892, 8474586, 8474573, 8473548];
 
         const turnerPlayers = [8476539, 8476399, 8479410, 8476826, 8476455, 8475172, 8478439, 8478500, 8474037, 8478500, 8475820, 8478519, 8476480, 8477456];
@@ -122,7 +155,6 @@
             $('#matt').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             mattPlayers.forEach(playerid => {
-                console.log(playerid);
                 fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
                     .then(response => response.json())
                     .then(function (data) {
@@ -134,6 +166,8 @@
                                 grey = true;
                             }
 
+
+
                             var team = i.currentTeam.name;
 
                             totalGinos = i.stats[0].splits[0].stat.goals;
@@ -141,19 +175,34 @@
 
                             mattTotal = totalGinos + totalApples;
 
+                            mattRuns++;
+                            assistsTotal = assistsTotal + totalApples;
+                            goalsTotal = goalsTotal + totalGinos;
 
+                            totalPoints = goalsTotal + assistsTotal;
+
+
+
+
+
+                            console.log("Total Goals : " + goalsTotal);
+                            console.log("Total Assists : " + assistsTotal);
                             if (grey == true) {
                                 $('#matt').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + mattTotal + "</td></tr > ");
 
                             } else {
                                 $('#matt').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + mattTotal + "</td></tr > ");
                             }
+
+                            if (mattRuns >= mattPlayers.length) {
+                                $('#matt').append("<tr class='green'><td>Totals</td><td>Matt</td > <td>" + goalsTotal + "</td><td>" + assistsTotal + "</td><td>" + totalPoints + "</td></tr > ");
+                            }
                         })
 
                     })
             })
 
-            $('#headers').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+            $('#scott').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
             scottPlayers.forEach(playerid => {
                 console.log(playerid);
@@ -175,12 +224,22 @@
 
                             scottTotal = totalGinos + totalApples;
 
+                            scottRuns++;
+                            scottassistsTotal = scottassistsTotal + totalApples;
+                            scottgoalsTotal = scottgoalsTotal + totalGinos;
+
+                            scotttotalPoints = scottgoalsTotal + scottassistsTotal;
+
 
                             if (grey == true) {
                                 $('#scott').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + scottTotal + "</td></tr > ");
 
                             } else {
                                 $('#scott').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + scottTotal + "</td></tr > ");
+                            }
+
+                            if (scottRuns >= scottPlayers.length) {
+                                $('#scott').append("<tr class='green'><td>Totals</td><td>Scott</td > <td>" + scottgoalsTotal + "</td><td>" + scottassistsTotal + "</td><td>" + scotttotalPoints + "</td></tr > ");
                             }
                         })
 
@@ -209,12 +268,22 @@
 
                             turnerTotal = totalGinos + totalApples;
 
+                            turnerRuns++;
+                            turnerassistsTotal = turnerassistsTotal + totalApples;
+                            turnergoalsTotal = turnergoalsTotal + totalGinos;
+
+                            turnertotalPoints = turnergoalsTotal + turnerassistsTotal;
+
 
                             if (grey == true) {
                                 $('#turner').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + turnerTotal + "</td></tr > ");
 
                             } else {
                                 $('#turner').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + turnerTotal + "</td></tr > ");
+                            }
+
+                            if (turnerRuns >= turnerPlayers.length) {
+                                $('#turner').append("<tr class='green'><td>Totals</td><td>Turner</td > <td>" + turnergoalsTotal + "</td><td>" + turnerassistsTotal + "</td><td>" + turnertotalPoints + "</td></tr > ");
                             }
                         })
 
@@ -243,12 +312,22 @@
 
                             taylorTotal = totalGinos + totalApples;
 
+                            taylorRuns++;
+                            taylorassistsTotal = taylorassistsTotal + totalApples;
+                            taylorgoalsTotal = taylorgoalsTotal + totalGinos;
+
+                            taylortotalPoints = taylorgoalsTotal + taylorassistsTotal;
+
 
                             if (grey == true) {
                                 $('#taylor').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + taylorTotal + "</td></tr > ");
 
                             } else {
                                 $('#taylor').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + taylorTotal + "</td></tr > ");
+                            }
+
+                            if (taylorRuns >= taylorPlayers.length) {
+                                $('#taylor').append("<tr class='green'><td>Totals</td><td>Taylor</td > <td>" + taylorgoalsTotal + "</td><td>" + taylorassistsTotal + "</td><td>" + taylortotalPoints + "</td></tr > ");
                             }
                         })
 
@@ -277,12 +356,22 @@
 
                             steveTotal = totalGinos + totalApples;
 
+                            steveRuns++;
+                            steveassistsTotal = steveassistsTotal + totalApples;
+                            stevegoalsTotal = stevegoalsTotal + totalGinos;
+
+                            stevetotalPoints = stevegoalsTotal + steveassistsTotal;
+
 
                             if (grey == true) {
                                 $('#steve').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + steveTotal + "</td></tr > ");
 
                             } else {
                                 $('#steve').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + steveTotal + "</td></tr > ");
+                            }
+
+                            if (steveRuns >= stevePlayers.length) {
+                                $('#steve').append("<tr class='green'><td>Totals</td><td>Steve</td > <td>" + stevegoalsTotal + "</td><td>" + steveassistsTotal + "</td><td>" + stevetotalPoints + "</td></tr > ");
                             }
                         })
 
@@ -311,13 +400,21 @@
 
                             brenTotal = totalGinos + totalApples;
 
-                            console.log("Grey: " + grey)
+                            brenRuns++;
+                            brenassistsTotal = brenassistsTotal + totalApples;
+                            brengoalsTotal = brengoalsTotal + totalGinos;
+
+                            brentotalPoints = brengoalsTotal + brenassistsTotal;
 
                             if (grey == true) {
                                 $('#bren').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + brenTotal + "</td></tr > ");
 
                             } else {
                                 $('#bren').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + brenTotal + "</td></tr > ");
+                            }
+
+                            if (brenRuns >= brenPlayers.length) {
+                                $('#bren').append("<tr class='green'><td>Totals</td><td>Bren</td > <td>" + brengoalsTotal + "</td><td>" + brenassistsTotal + "</td><td>" + brentotalPoints + "</td></tr > ");
                             }
                         })
 
@@ -346,12 +443,22 @@
 
                             milanTotal = totalGinos + totalApples;
 
+                            milanRuns++;
+                            milanassistsTotal = milanassistsTotal + totalApples;
+                            milangoalsTotal = milangoalsTotal + totalGinos;
+
+                            milantotalPoints = milangoalsTotal + milanassistsTotal;
+
 
                             if (grey == true) {
                                 $('#milan').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + milanTotal + "</td></tr > ");
 
                             } else {
                                 $('#milan').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + milanTotal + "</td></tr > ");
+                            }
+
+                            if (milanRuns >= milanPlayers.length) {
+                                $('#milan').append("<tr class='green'><td>Totals</td><td>Milan</td > <td>" + milangoalsTotal + "</td><td>" + milanassistsTotal + "</td><td>" + milantotalPoints + "</td></tr > ");
                             }
                         })
 
@@ -381,16 +488,21 @@
 
                             marcoTotal = totalGinos + totalApples;
 
-                            marcoTotalTest = ++marcoTotal;
+                            marcoRuns++;
+                            marcoassistsTotal = marcoassistsTotal + totalApples;
+                            marcogoalsTotal = marcogoalsTotal + totalGinos;
 
-                            console.log("TEST - Marco :" + marcoTotalTest);
-
+                            marcototalPoints = marcogoalsTotal + marcoassistsTotal;
 
                             if (grey == true) {
                                 $('#marco').append("<tr class='grey'><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + marcoTotal + "</td></tr > ");
 
                             } else {
                                 $('#marco').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + marcoTotal + "</td></tr > ");
+                            }
+
+                            if (marcoRuns >= marcoPlayers.length) {
+                                $('#marco').append("<tr class='green'><td>Totals</td><td>Slow Clap - 50 pts</td > <td>" + marcogoalsTotal + "</td><td>" + marcoassistsTotal + "</td><td>" + marcototalPoints + " (0)</td></tr > ");
                             }
                         })
 
