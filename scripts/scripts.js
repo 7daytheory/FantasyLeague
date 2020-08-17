@@ -93,16 +93,10 @@ addEventListener("load", () => {
                         assistsTotal = assistsTotal - 12;
                         goalsTotal = goalsTotal - 12;
 
-<<<<<<< HEAD
                         matttotalPoints = goalsTotal + assistsTotal;
 
                         let mattArray = [{ name: "Matt", score: Number(matttotalPoints) }];
                         leaders.push(mattArray);
-=======
-                        totalPoints = goalsTotal + assistsTotal;
-
-                        leaders.push(totalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
                     if (grey == true) {
@@ -113,11 +107,7 @@ addEventListener("load", () => {
                     }
 
                     if (mattRuns >= mattPlayers.length) {
-<<<<<<< HEAD
                         $('#matt').append("<tr class='green'><td>Totals</td><td>Matt</td > <td>" + goalsTotal + "</td><td>" + assistsTotal + "</td><td id='mattTotal'>" + matttotalPoints + "</td></tr > ");
-=======
-                        $('#matt').append("<tr class='green'><td>Totals</td><td>Matt</td > <td>" + goalsTotal + "</td><td>" + assistsTotal + "</td><td id='mattTotal'>" + totalPoints + "</td></tr > ");
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
                 })
 
@@ -156,12 +146,8 @@ addEventListener("load", () => {
 
                         scotttotalPoints = scottgoalsTotal + scottassistsTotal;
 
-<<<<<<< HEAD
                         let scottArray = [{ name: "Scott", score: Number(scotttotalPoints) }];
                         leaders.push(scottArray);
-=======
-                        leaders.push(scotttotalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
 
@@ -212,12 +198,8 @@ addEventListener("load", () => {
 
                         turnertotalPoints = turnergoalsTotal + turnerassistsTotal;
 
-<<<<<<< HEAD
                         let turnerArray = [{ name: "Turner", score: Number(turnertotalPoints) }];
                         leaders.push(turnerArray);
-=======
-                        leaders.push(turnertotalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
 
@@ -267,12 +249,8 @@ addEventListener("load", () => {
 
                         taylortotalPoints = taylorgoalsTotal + taylorassistsTotal;
 
-<<<<<<< HEAD
                         let taylorArray = [{ name: "Taylor", score: Number(taylortotalPoints) }];
                         leaders.push(taylorArray);
-=======
-                        leaders.push(taylortotalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
 
@@ -323,12 +301,8 @@ addEventListener("load", () => {
 
                         stevetotalPoints = stevegoalsTotal + steveassistsTotal;
 
-<<<<<<< HEAD
                         let steveArray = [{ name: "Steve", score: Number(stevetotalPoints) }];
                         leaders.push(steveArray);
-=======
-                        leaders.push(stevetotalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
 
@@ -378,13 +352,9 @@ addEventListener("load", () => {
 
                         brentotalPoints = brengoalsTotal + brenassistsTotal;
 
-<<<<<<< HEAD
                         let brenArray = [{ name: "Bren", score: Number(brentotalPoints) }];
 
                         leaders.push(brenArray);
-=======
-                        leaders.push(brentotalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
 
@@ -435,12 +405,8 @@ addEventListener("load", () => {
 
                         milantotalPoints = milangoalsTotal + milanassistsTotal;
 
-<<<<<<< HEAD
                         let milanArray = [{ name: "Milan", score: Number(milantotalPoints) }];
                         leaders.push(milanArray);
-=======
-                        leaders.push(milantotalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
 
@@ -492,12 +458,8 @@ addEventListener("load", () => {
 
                         marcototalPoints = marcogoalsTotal + marcoassistsTotal;
 
-<<<<<<< HEAD
                         let marcoArray = [{ name: "Marco", score: Number(marcototalPoints) }];
                         leaders.push(marcoArray);
-=======
-                        leaders.push(marcototalPoints);
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
                     }
 
 
@@ -520,7 +482,6 @@ addEventListener("load", () => {
 })
 
 function updateLeaders() {
-<<<<<<< HEAD
 
 
     leaders.sort((a, b) => (a.score > b.score) ? 1 : ((b.score > a.score) ? -1 : 0));
@@ -529,7 +490,3 @@ function updateLeaders() {
 
 
 }
-=======
-    console.log(leaders);
-}
->>>>>>> e33466634277594be4b2b420ba03ef2ddc2a6f2a
