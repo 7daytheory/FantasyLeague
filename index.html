@@ -198,9 +198,10 @@
                                 assistsTotal = assistsTotal - 12;
                                 goalsTotal = goalsTotal - 12;
 
-                                totalPoints = goalsTotal + assistsTotal;
+                                matttotalPoints = goalsTotal + assistsTotal;
 
-                                leaders.push(totalPoints);
+                                let mattArray = [{ name: "Matt", score: Number(matttotalPoints) }];
+                                leaders.push(mattArray);
                             }
 
                             if (grey == true) {
@@ -211,7 +212,7 @@
                             }
 
                             if (mattRuns >= mattPlayers.length) {
-                                $('#matt').append("<tr class='green'><td>Totals</td><td>Matt</td > <td>" + goalsTotal + "</td><td>" + assistsTotal + "</td><td id='mattTotal'>" + totalPoints + "</td></tr > ");
+                                $('#matt').append("<tr class='green'><td>Totals</td><td>Matt</td > <td>" + goalsTotal + "</td><td>" + assistsTotal + "</td><td id='mattTotal'>" + matttotalPoints + "</td></tr > ");
                             }
                         })
 
@@ -250,7 +251,8 @@
 
                                 scotttotalPoints = scottgoalsTotal + scottassistsTotal;
 
-                                leaders.push(scotttotalPoints);
+                                let scottArray = [{ name: "Scott", score: Number(scotttotalPoints) }];
+                                leaders.push(scottArray);
                             }
 
 
@@ -301,7 +303,8 @@
 
                                 turnertotalPoints = turnergoalsTotal + turnerassistsTotal;
 
-                                leaders.push(turnertotalPoints);
+                                let turnerArray = [{ name: "Turner", score: Number(turnertotalPoints) }];
+                                leaders.push(turnerArray);
                             }
 
 
@@ -351,7 +354,8 @@
 
                                 taylortotalPoints = taylorgoalsTotal + taylorassistsTotal;
 
-                                leaders.push(taylortotalPoints);
+                                let taylorArray = [{ name: "Taylor", score: Number(taylortotalPoints) }];
+                                leaders.push(taylorArray);
                             }
 
 
@@ -402,7 +406,8 @@
 
                                 stevetotalPoints = stevegoalsTotal + steveassistsTotal;
 
-                                leaders.push(stevetotalPoints);
+                                let steveArray = [{ name: "Steve", score: Number(stevetotalPoints) }];
+                                leaders.push(steveArray);
                             }
 
 
@@ -452,7 +457,9 @@
 
                                 brentotalPoints = brengoalsTotal + brenassistsTotal;
 
-                                leaders.push(brentotalPoints);
+                                let brenArray = [{ name: "Bren", score: Number(brentotalPoints) }];
+
+                                leaders.push(brenArray);
                             }
 
 
@@ -503,7 +510,8 @@
 
                                 milantotalPoints = milangoalsTotal + milanassistsTotal;
 
-                                leaders.push(milantotalPoints);
+                                let milanArray = [{ name: "Milan", score: Number(milantotalPoints) }];
+                                leaders.push(milanArray);
                             }
 
 
@@ -555,7 +563,8 @@
 
                                 marcototalPoints = marcogoalsTotal + marcoassistsTotal;
 
-                                leaders.push(marcototalPoints);
+                                let marcoArray = [{ name: "Marco", score: Number(marcototalPoints) }];
+                                leaders.push(marcoArray);
                             }
 
 
@@ -578,7 +587,13 @@
         })
 
         function updateLeaders() {
+
+
+            leaders.sort((a, b) => (a.score > b.score) ? 1 : ((b.score > a.score) ? -1 : 0));
+
             console.log(leaders);
+
+
         }
 
 
@@ -586,6 +601,7 @@
 
     </script>
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="scripts/underscore.js"></script>
 </body>
 
 </html>
