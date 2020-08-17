@@ -92,10 +92,15 @@ function loadpage() {
 
                         matttotalPoints = goalsTotal + assistsTotal;
 
+<<<<<<< HEAD
                         var mattObj = { name: "Matt", score: matttotalPoints };
                         leaders.push(mattObj);
 
                         createArray("Matt", matttotalPoints);
+=======
+                        let mattArray = [{ name: "Matt", score: Number(matttotalPoints) }];
+                        leaders.push(mattArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
                     if (grey == true) {
@@ -145,10 +150,15 @@ function loadpage() {
 
                         scotttotalPoints = scottgoalsTotal + scottassistsTotal;
 
+<<<<<<< HEAD
                         var scottObj = { name: "Scott", score: scotttotalPoints };
                         leaders.push(scottObj);
 
                         createArray("Scott", scotttotalPoints);
+=======
+                        let scottArray = [{ name: "Scott", score: Number(scotttotalPoints) }];
+                        leaders.push(scottArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
 
@@ -199,10 +209,15 @@ function loadpage() {
 
                         turnertotalPoints = turnergoalsTotal + turnerassistsTotal;
 
+<<<<<<< HEAD
                         var turnerObj = { name: "Turner", score: turnertotalPoints };
                         leaders.push(turnerObj);
 
                         createArray("Turner", turnertotalPoints);
+=======
+                        let turnerArray = [{ name: "Turner", score: Number(turnertotalPoints) }];
+                        leaders.push(turnerArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
 
@@ -252,10 +267,15 @@ function loadpage() {
 
                         taylortotalPoints = taylorgoalsTotal + taylorassistsTotal;
 
+<<<<<<< HEAD
                         var taylorObj = { name: "Taylor", score: taylortotalPoints };
                         leaders.push(taylorObj);
 
                         createArray("Taylor", taylortotalPoints);
+=======
+                        let taylorArray = [{ name: "Taylor", score: Number(taylortotalPoints) }];
+                        leaders.push(taylorArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
 
@@ -306,10 +326,15 @@ function loadpage() {
 
                         stevetotalPoints = stevegoalsTotal + steveassistsTotal;
 
+<<<<<<< HEAD
                         var steveObj = { name: "Steve", score: stevetotalPoints };
                         leaders.push(steveObj);
 
                         createArray("Steve", stevetotalPoints);
+=======
+                        let steveArray = [{ name: "Steve", score: Number(stevetotalPoints) }];
+                        leaders.push(steveArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
 
@@ -359,11 +384,17 @@ function loadpage() {
 
                         brentotalPoints = brengoalsTotal + brenassistsTotal;
 
+<<<<<<< HEAD
                         var brenObj = { name: "Bren", score: brentotalPoints };
 
                         leaders.push(brenObj);
 
                         createArray("Bren", brentotalPoints);
+=======
+                        let brenArray = [{ name: "Bren", score: Number(brentotalPoints) }];
+
+                        leaders.push(brenArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
 
@@ -414,10 +445,15 @@ function loadpage() {
 
                         milantotalPoints = milangoalsTotal + milanassistsTotal;
 
+<<<<<<< HEAD
                         var milanObj = { name: "Milan", score: milantotalPoints };
                         leaders.push(milanObj);
 
                         createArray("Milan", milantotalPoints);
+=======
+                        let milanArray = [{ name: "Milan", score: Number(milantotalPoints) }];
+                        leaders.push(milanArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
 
@@ -469,10 +505,15 @@ function loadpage() {
 
                         marcototalPoints = marcogoalsTotal + marcoassistsTotal;
 
+<<<<<<< HEAD
                         var marcoObj = { name: "Marco", score: marcototalPoints };
                         leaders.push(marcoObj);
 
                         createArray("Marco", marcototalPoints);
+=======
+                        let marcoArray = [{ name: "Marco", score: Number(marcototalPoints) }];
+                        leaders.push(marcoArray);
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
                     }
 
 
@@ -493,10 +534,14 @@ function loadpage() {
 }
 
 
+<<<<<<< HEAD
 function createArray(a, b) {
     var item = { name: a, score: b };
     array.push(item);
 }
+=======
+function updateLeaders() {
+>>>>>>> 424e6665b416212aad59adfb393cd1fb5a834517
 
 setTimeout(addleaders, 2000);
 function addleaders() {
