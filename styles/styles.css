@@ -6,7 +6,7 @@
 }
 
 .headers {
-    background: #333;
+    background-image: url("images/background.png");
     color: #fff;
     padding: 15px!important;
     height: 25px;
@@ -98,7 +98,7 @@ h2 {
 
 #leaderboard {
     text-align: center;
-    background: #333;
+    background: url("../images/background2.png") repeat 0 0;
     color: #fff;
     margin: 0px;
     padding: 15px;
