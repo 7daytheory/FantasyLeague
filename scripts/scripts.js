@@ -498,8 +498,11 @@ function createArray(a, b) {
     array.push(item);
 }
 
+var refreshes = 1;
+
 setTimeout(addleaders, 2000);
 function addleaders() {
+
 
     var newArray = array.sort((a, b) => (a.score < b.score) ? 1 : ((b.score < a.score) ? -1 : 0));
 
