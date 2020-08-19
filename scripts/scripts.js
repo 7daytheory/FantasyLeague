@@ -514,9 +514,19 @@ function addleaders() {
         console.log(leader);
 
 
-        $('.leaderHead').append("<table id=" + place + " class='leaders'><tr><td>" + place + "</td><td>" + leader.name + "</td><td>" + leader.score + "</td></tr></table>");
+        $('.leaderHead').append("<table id=" + leaders.name + " class='leaders'><tr><td>" + place + "</td><td>" + leader.name + "</td><td>" + leader.score + "</td></tr></table>");
 
         place++;
     });
+
+    if (place === 1) {
+        document.getElementById(leaders.name).innerHTML = '<img src="images/1st.png" class="awards">';
+    } else if (place === 2) {
+        document.getElementById(leaders.name).innerHTML = '<img src="images/2nd.png" class="awards">';
+    } else if (place === 3) {
+        document.getElementById(leaders.name).innerHTML = '<img src="images/3rd.png" class="awards">';
+    } else if (place === 8) {
+        document.getElementById(leaders.name).innerHTML = '<img src="images/sacko.png" class="awards">';
+    }
 
 }

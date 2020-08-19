@@ -129,3 +129,9 @@ h2 {
     width: 200px;
     height: auto;
 }
+
+.awards {
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
