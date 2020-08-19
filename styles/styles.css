@@ -100,8 +100,8 @@ h2 {
 
 .leaders {
     padding: 15px;
-    width: 75%;
-    min-width: 75%;
+    min-width: 80%;
+    max-width: 80%;
     margin: auto;
     text-align:center;
     background: #fff;
