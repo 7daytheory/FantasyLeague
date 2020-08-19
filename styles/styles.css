@@ -31,6 +31,7 @@ box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
 }
 
 table td {
+    position: relative;
     padding: 5px;
     cursor: pointer;
 }
@@ -132,6 +133,6 @@ h2 {
 
 .awards {
     position: absolute;
-    left: 15px;
-    top: 5px;
+    left: 5px;
+    top: -15px;
 }

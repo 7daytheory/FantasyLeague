@@ -500,7 +500,7 @@ function createArray(a, b) {
 
 var refreshes = 1;
 
-setTimeout(addleaders, 2000);
+setTimeout(addleaders, 2500);
 function addleaders() {
 
 
@@ -514,19 +514,23 @@ function addleaders() {
         console.log(leader);
 
 
-        $('.leaderHead').append("<table id=" + leaders.name + " class='leaders'><tr><td>" + place + "</td><td>" + leader.name + "</td><td>" + leader.score + "</td></tr></table>");
+        $('.leaderHead').append("<table id=" + leader.name + " class='leaders'><tr><td><img id='img" + leader.name + "' src='' class='awards'></span > " + place + "</td > <td>" + leader.name + "</td><td>" + leader.score + "</td></tr ></table > ");
 
         place++;
-    });
 
-    if (place === 1) {
-        document.getElementById(leaders.name).innerHTML = '<img src="images/1st.png" class="awards">';
-    } else if (place === 2) {
-        document.getElementById(leaders.name).innerHTML = '<img src="images/2nd.png" class="awards">';
-    } else if (place === 3) {
-        document.getElementById(leaders.name).innerHTML = '<img src="images/3rd.png" class="awards">';
-    } else if (place === 8) {
-        document.getElementById(leaders.name).innerHTML = '<img src="images/sacko.png" class="awards">';
+    });
+    addingGraphics();
+}
+
+function addingGraphics(a) {
+    var places = document.querySelectorAll(".awards");
+
+    for (var i = 0; i < places.length - 1; i++) {
+        console.log('fakeImage: ', places[i]);
     }
 
+    places[0].src = "images/1st.png";
+    places[1].src = "images/2nd.png";
+    places[2].src = "images/3rd.png";
+    places[7].src = "images/sacko.png";
 }
