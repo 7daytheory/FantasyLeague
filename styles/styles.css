@@ -6,7 +6,7 @@
 }
 
 .headers {
-    background-image: url("images/background.png");
+    background: #333;
     color: #fff;
     padding: 15px!important;
     height: 25px;
@@ -45,9 +45,10 @@ h1 {
     text-align: center;
     background: #e31837;
     color: #111;
-    width: 25%;
+    width: 75%;
+    font-size: 2em;
     margin: auto;
-    padding: 15px 50px;
+    padding: 15px 25px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
