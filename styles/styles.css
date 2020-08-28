@@ -88,9 +88,14 @@ h2 {
     color: #fff;
     font-size: 2em;
     text-align: center;
+<<<<<<< HEAD
     height: 700px;
 	max-width: none;
 	width:100%;
+=======
+    padding: 15px;
+    height: 700px;
+>>>>>>> 0ff370f8193b31a778aa4ff8fad28da416971553
 }
 
 #leaderHead {
@@ -101,6 +106,10 @@ h2 {
 .leaders {
     padding: 15px;
     min-width: 80%;
+<<<<<<< HEAD
+=======
+    max-width: 80%;
+>>>>>>> 0ff370f8193b31a778aa4ff8fad28da416971553
     margin: auto;
     text-align:center;
     background: #fff;
