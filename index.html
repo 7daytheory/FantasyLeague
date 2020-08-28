@@ -6,22 +6,52 @@
     <meta charset="utf-8" />
     <title>Playoff Fantasy Hockey</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen" />
 
+    <meta name="description"
+        content="Matthew Lowe - NHL Fantasy 2020 pool of pools with statsAPI for automatic updating of stats.">
+    <meta property="og:description"
+        content="Matthew Lowe - NHL Fantasy 2020 pool of pools with statsAPI for automatic updating of stats.">
+    <meta property="image" content="../images/logo.png">
+    <meta property="og:image" content="../images/logo.png">
+    <meta property="url" content="http://www.mattjlowe.com">
+    <meta property="og:url" content="http://www.mattjlowe.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <!-- meta tags to stop caching old scores -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
 </head>
 
 
 <body>
 
+    <div class="loader"></div>
 
+    <div id="leaderboard">
+
+        <h1>2020 Pool of Pools</h1>
+        <img src="images/logo.png" alt="Logo" class="logo" />
+        <div class="leaderHead">
+            <table id="leaderHead" class="leaders">
+                <tbody>
+                    <tr>
+                        <td>Place</td>
+                        <td>Name</td>
+                        <td>Points</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
     <div class="pageWrap">
 
-        <h1>2020 Pool of Pools</h1>
+
+
 
         <h2>Matt</h2>
         <div id="totalPoints"></div>
@@ -103,7 +133,6 @@
 
 
     </div>
-
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="scripts/scripts.js"></script>
 </body>

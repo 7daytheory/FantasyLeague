@@ -1,11 +1,5 @@
-/* Javascript Goes Here */
 
-const gameIDs = "https://statsapi.web.nhl.com/api/v1/tournaments/playoffs?expand=round.series,schedule.game.seriesSummary&season=20192020";
-
-fetch(gameIDs).then(response => response.json())
-    .then(function (data) {
-        console.log("games" + data);
-    });;
+const yourContainer = document.getElementById("leaderboard");
 
 let grey = false;
 
@@ -42,7 +36,8 @@ let milanRuns = 0;
 let marcoRuns = 0;
 let turnerRuns = 0;
 
-const leaders = [];
+var array = [];
+var leaders = new Array;
 
 const scottPlayers = [8475191, 8476453, 8477447, 8473986, 8474102, 8477220, 8476292, 8478445, 8475754, 8475765, 8476892, 8474586, 8474573, 8473548];
 
@@ -60,8 +55,10 @@ const stevePlayers = [8475913, 8476872, 8477949, 8475763, 8476393, 8480830, 8476
 
 const mattPlayers = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871];
 
-addEventListener("load", () => {
-    $('#matt').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+loadpage();
+
+function loadpage() {
+    $('#matt').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     mattPlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -91,12 +88,14 @@ addEventListener("load", () => {
 
                     if (mattRuns >= mattPlayers.length) {
                         assistsTotal = assistsTotal - 12;
-                        goalsTotal = goalsTotal - 12;
+                        goalsTotal = goalsTotal - 11;
 
                         matttotalPoints = goalsTotal + assistsTotal;
 
-                        let mattArray = [{ name: "Matt", score: Number(matttotalPoints) }];
-                        leaders.push(mattArray);
+                        var mattObj = { name: "Matt", score: matttotalPoints };
+                        leaders.push(mattObj);
+
+                        createArray("Matt", matttotalPoints);
                     }
 
                     if (grey == true) {
@@ -114,7 +113,7 @@ addEventListener("load", () => {
             })
     })
 
-    $('#scott').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+    $('#scott').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     scottPlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -141,13 +140,15 @@ addEventListener("load", () => {
 
 
                     if (scottRuns >= scottPlayers.length) {
-                        scottassistsTotal = scottassistsTotal - 22;
-                        scottgoalsTotal = scottgoalsTotal - 16;
+                        scottassistsTotal = scottassistsTotal - 21;
+                        scottgoalsTotal = scottgoalsTotal - 15;
 
                         scotttotalPoints = scottgoalsTotal + scottassistsTotal;
 
-                        let scottArray = [{ name: "Scott", score: Number(scotttotalPoints) }];
-                        leaders.push(scottArray);
+                        var scottObj = { name: "Scott", score: scotttotalPoints };
+                        leaders.push(scottObj);
+
+                        createArray("Scott", scotttotalPoints);
                     }
 
 
@@ -167,7 +168,7 @@ addEventListener("load", () => {
     })
 
 
-    $('#turner').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+    $('#turner').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     turnerPlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -194,12 +195,14 @@ addEventListener("load", () => {
 
                     if (turnerRuns >= turnerPlayers.length) {
                         turnerassistsTotal = turnerassistsTotal - 13;
-                        turnergoalsTotal = turnergoalsTotal - 6;
+                        turnergoalsTotal = turnergoalsTotal - 5;
 
                         turnertotalPoints = turnergoalsTotal + turnerassistsTotal;
 
-                        let turnerArray = [{ name: "Turner", score: Number(turnertotalPoints) }];
-                        leaders.push(turnerArray);
+                        var turnerObj = { name: "Turner", score: turnertotalPoints };
+                        leaders.push(turnerObj);
+
+                        createArray("Turner", turnertotalPoints);
                     }
 
 
@@ -218,7 +221,7 @@ addEventListener("load", () => {
             })
     })
 
-    $('#taylor').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+    $('#taylor').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     taylorPlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -244,13 +247,15 @@ addEventListener("load", () => {
                     taylorgoalsTotal = taylorgoalsTotal + totalGinos;
 
                     if (taylorRuns >= taylorPlayers.length) {
-                        taylorassistsTotal = taylorassistsTotal - 23;
+                        taylorassistsTotal = taylorassistsTotal - 11;
                         taylorgoalsTotal = taylorgoalsTotal - 13;
 
                         taylortotalPoints = taylorgoalsTotal + taylorassistsTotal;
 
-                        let taylorArray = [{ name: "Taylor", score: Number(taylortotalPoints) }];
-                        leaders.push(taylorArray);
+                        var taylorObj = { name: "Taylor", score: taylortotalPoints };
+                        leaders.push(taylorObj);
+
+                        createArray("Taylor", taylortotalPoints);
                     }
 
 
@@ -269,7 +274,7 @@ addEventListener("load", () => {
             })
     })
 
-    $('#steve').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+    $('#steve').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     stevePlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -301,8 +306,10 @@ addEventListener("load", () => {
 
                         stevetotalPoints = stevegoalsTotal + steveassistsTotal;
 
-                        let steveArray = [{ name: "Steve", score: Number(stevetotalPoints) }];
-                        leaders.push(steveArray);
+                        var steveObj = { name: "Steve", score: stevetotalPoints };
+                        leaders.push(steveObj);
+
+                        createArray("Steve", stevetotalPoints);
                     }
 
 
@@ -321,7 +328,7 @@ addEventListener("load", () => {
             })
     })
 
-    $('#bren').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+    $('#bren').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     brenPlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -347,14 +354,16 @@ addEventListener("load", () => {
                     brengoalsTotal = brengoalsTotal + totalGinos;
 
                     if (brenRuns >= brenPlayers.length) {
-                        brenassistsTotal = brenassistsTotal - 13;
+                        brenassistsTotal = brenassistsTotal - 11;
                         brengoalsTotal = brengoalsTotal - 8;
 
                         brentotalPoints = brengoalsTotal + brenassistsTotal;
 
-                        let brenArray = [{ name: "Bren", score: Number(brentotalPoints) }];
+                        var brenObj = { name: "Bren", score: brentotalPoints };
 
-                        leaders.push(brenArray);
+                        leaders.push(brenObj);
+
+                        createArray("Bren", brentotalPoints);
                     }
 
 
@@ -374,7 +383,7 @@ addEventListener("load", () => {
             })
     })
 
-    $('#milan').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+    $('#milan').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
     milanPlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -400,13 +409,15 @@ addEventListener("load", () => {
                     milangoalsTotal = milangoalsTotal + totalGinos;
 
                     if (milanRuns >= stevePlayers.length) {
-                        milanassistsTotal = milanassistsTotal - 20;
-                        milangoalsTotal = milangoalsTotal - 14;
+                        milanassistsTotal = milanassistsTotal - 19;
+                        milangoalsTotal = milangoalsTotal - 13;
 
                         milantotalPoints = milangoalsTotal + milanassistsTotal;
 
-                        let milanArray = [{ name: "Milan", score: Number(milantotalPoints) }];
-                        leaders.push(milanArray);
+                        var milanObj = { name: "Milan", score: milantotalPoints };
+                        leaders.push(milanObj);
+
+                        createArray("Milan", milantotalPoints);
                     }
 
 
@@ -427,7 +438,7 @@ addEventListener("load", () => {
     })
 
 
-    $('#marco').append("<tr class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
+    $('#marco').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
     marcoPlayers.forEach(playerid => {
         fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
@@ -453,13 +464,15 @@ addEventListener("load", () => {
                     marcogoalsTotal = marcogoalsTotal + totalGinos;
 
                     if (marcoRuns >= marcoPlayers.length) {
-                        marcoassistsTotal = marcoassistsTotal - 19;
-                        marcogoalsTotal = marcogoalsTotal - 13;
+                        marcoassistsTotal = marcoassistsTotal - 18;
+                        marcogoalsTotal = marcogoalsTotal - 12;
 
                         marcototalPoints = marcogoalsTotal + marcoassistsTotal;
 
-                        let marcoArray = [{ name: "Marco", score: Number(marcototalPoints) }];
-                        leaders.push(marcoArray);
+                        var marcoObj = { name: "Marco", score: marcototalPoints };
+                        leaders.push(marcoObj);
+
+                        createArray("Marco", marcototalPoints);
                     }
 
 
@@ -477,16 +490,47 @@ addEventListener("load", () => {
 
             })
     })
-
-    updateLeaders();
-})
-
-function updateLeaders() {
+}
 
 
-    leaders.sort((a, b) => (a.score > b.score) ? 1 : ((b.score > a.score) ? -1 : 0));
+function createArray(a, b) {
+    var item = { name: a, score: b };
+    array.push(item);
+}
 
-    console.log(leaders);
+var refreshes = 1;
+
+setTimeout(addleaders, 2500);
+function addleaders() {
 
 
+    var newArray = array.sort((a, b) => (a.score < b.score) ? 1 : ((b.score < a.score) ? -1 : 0));
+
+    console.log(newArray);
+
+    var place = 1;
+
+    newArray.forEach(leader => {
+        console.log(leader);
+
+
+        $('.leaderHead').append("<table id=" + leader.name + " class='leaders'><tr><td><img id='img" + leader.name + "' src='' class='awards'></span > " + place + "</td > <td>" + leader.name + "</td><td>" + leader.score + "</td></tr ></table > ");
+
+        place++;
+
+    });
+    addingGraphics();
+}
+
+function addingGraphics(a) {
+    var places = document.querySelectorAll(".awards");
+
+    for (var i = 0; i < places.length - 1; i++) {
+        console.log('fakeImage: ', places[i]);
+    }
+
+    places[0].src = "images/1st.png";
+    places[1].src = "images/2nd.png";
+    places[2].src = "images/3rd.png";
+    places[7].src = "images/sacko.png";
 }
