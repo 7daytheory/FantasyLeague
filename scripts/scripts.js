@@ -43,7 +43,7 @@ const scottPlayers = [8475191, 8476453, 8477447, 8473986, 8474102, 8477220, 8476
 
 const turnerPlayers = [8476539, 8476399, 8479410, 8476826, 8476455, 8475172, 8478439, 8478500, 8474037, 8478500, 8475820, 8478519, 8476480, 8477456];
 
-const brenPlayers = [8478010, 8477495, 8471214, 8480069, 8476792, 8476461, 8474590, 8470642, 8478460, 8474038, 8476419, 8475098]
+const brenPlayers = [8478010, 8477495, 8471214, 8480069, 8476792, 8476461, 8474590, 8470642, 8478460, 8474038, 8476419, 8475098, 8479343, 8475791]
 
 const marcoPlayers = [8474150, 8474151, 8477492, 8474870, 8477444, 8475158, 8475170, 8476346, 8477496, 8471276, 8479325, 8474031, 8478498, 8479398];
 
@@ -106,7 +106,12 @@ function loadpage() {
                     }
 
                     if (mattRuns >= mattPlayers.length) {
+                        $('#matt').append("<tr class='grey'><td>Matthew Lowe</td><td>Oakville Rangers 2012 AA</td > <td>0</td><td>0</td><td>0</td></tr > ");
+
                         $('#matt').append("<tr class='green'><td>Totals</td><td>Matt</td > <td>" + goalsTotal + "</td><td>" + assistsTotal + "</td><td id='mattTotal'>" + matttotalPoints + "</td></tr > ");
+
+
+
                     }
                 })
 
@@ -484,7 +489,7 @@ function loadpage() {
                     }
 
                     if (marcoRuns >= marcoPlayers.length) {
-                        $('#marco').append("<tr class='green'><td>Totals</td><td>Marco</td > <td>" + marcogoalsTotal + "</td><td>" + marcoassistsTotal + "</td><td id='marcoTotal'>" + marcototalPoints + "</td></tr > ");
+                        $('#marco').append("<tr class='green'><td>Totals</td><td'>Marco</td > <td>" + marcogoalsTotal + "</td><td>" + marcoassistsTotal + "</td><td id='marcoTotal'>" + marcototalPoints + "</td></tr > ");
                     }
                 })
 
@@ -514,7 +519,7 @@ function addleaders() {
         console.log(leader);
 
 
-        $('.leaderHead').append("<table id=" + leader.name + " class='leaders'><tr><td><img id='img" + leader.name + "' src='' class='awards'></span > " + place + "</td > <td>" + leader.name + "</td><td>" + leader.score + "</td></tr ></table > ");
+        $('.leaderHead').append("<table id=" + leader.name + " class='leaders'><tr><td><img id='img" + leader.name + "' src='#' class='awards'></span ></td > <td>" + leader.name + "</td><td>" + leader.score + "</td><td><a href='#" + leader.name + "' class='viewStats'>View</a></td></tr ></table > ");
 
         place++;
 
@@ -532,5 +537,9 @@ function addingGraphics(a) {
     places[0].src = "images/1st.png";
     places[1].src = "images/2nd.png";
     places[2].src = "images/3rd.png";
+    places[3].src = "images/4th.png";
+    places[4].src = "images/5th.png";
+    places[5].src = "images/6th.png";
+    places[6].src = "images/7th.png";
     places[7].src = "images/sacko.png";
 }
