@@ -519,7 +519,7 @@ function addleaders() {
         console.log(leader);
 
 
-        $('.leaderHead').append("<table id=" + leader.name + " class='leaders'><tr><td><img id='img" + leader.name + "' src='#' class='awards'></span ></td > <td>" + leader.name + "</td><td>" + leader.score + "</td><td><a href='#" + leader.name + "' class='viewStats'>View</a></td></tr ></table > ");
+        $('.leaderHead').append("<table id=" + leader.name + " class='leaders'><tr><td><img id='img" + leader.name + "' src='#' class='awards'></span ></td > <td class='nameAlign'>" + leader.name + "</td><td>" + leader.score + "</td><td><a href='#" + leader.name + "' class='viewStats'>View</a></td></tr ></table > ");
 
         place++;
 
