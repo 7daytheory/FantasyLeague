@@ -55,13 +55,13 @@ const stevePlayers = [8475913, 8476872, 8477949, 8475763, 8476393, 8480830, 8476
 
 const mattPlayers = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871];
 
-loadpage();
 
-function loadpage() {
+start();
+function start() {
     $('#matt').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     mattPlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -104,15 +104,6 @@ function loadpage() {
                     } else {
                         $('#matt').append("<tr><td>" + data.people[0].fullName + "</td><td>" + team + "</td > <td>" + totalGinos + "</td><td>" + totalApples + "</td><td>" + mattTotal + "</td></tr > ");
                     }
-
-                    if (mattRuns >= mattPlayers.length) {
-                        $('#matt').append("<tr class='grey'><td>Matthew Lowe</td><td>Oakville Rangers 2012 AA</td > <td>0</td><td>0</td><td>0</td></tr > ");
-
-                        $('#matt').append("<tr class='green'><td>Totals</td><td>Matt</td > <td>" + goalsTotal + "</td><td>" + assistsTotal + "</td><td id='mattTotal'>" + matttotalPoints + "</td></tr > ");
-
-
-
-                    }
                 })
 
             })
@@ -121,7 +112,7 @@ function loadpage() {
     $('#scott').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     scottPlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -176,7 +167,7 @@ function loadpage() {
     $('#turner').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     turnerPlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -229,7 +220,7 @@ function loadpage() {
     $('#taylor').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     taylorPlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -282,7 +273,7 @@ function loadpage() {
     $('#steve').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     stevePlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -336,7 +327,7 @@ function loadpage() {
     $('#bren').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></thead > ");
 
     brenPlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -391,7 +382,7 @@ function loadpage() {
     $('#milan').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
     milanPlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -446,7 +437,7 @@ function loadpage() {
     $('#marco').append("<thead class='headers'><td>Player Name</td><td>Team</td > <td>Ginos</td><td>Apples</td><td>Total</td></tr > ");
 
     marcoPlayers.forEach(playerid => {
-        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeasonPlayoffs)')
+        fetch('https://statsapi.web.nhl.com/api/v1/people/' + playerid + '?hydrate=stats(splits=statsSingleSeason)')
             .then(response => response.json())
             .then(function (data) {
                 response = data.people;
@@ -495,7 +486,7 @@ function loadpage() {
 
             })
     })
-}
+};
 
 
 function createArray(a, b) {
