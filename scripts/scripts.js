@@ -55,6 +55,22 @@ const stevePlayers = [8475913, 8476872, 8477949, 8475763, 8476393, 8480830, 8476
 
 const mattPlayers = [8475167, 8477956, 8473419, 8470638, 8471698, 8480012, 8476880, 8473563, 8478444, 8477500, 8476468, 8475744, 8476871];
 
+const teamsList = new Array;
+
+
+    fetch('https://statsapi.web.nhl.com/api/v1/teams')
+    .then(response => response.json())
+    .then((data) => {
+        let team = data.teams;
+        
+        team.map((i) => {
+          teamsList.push({team: i.name});
+        })
+    })
+
+console.log(teamsList);
+
+
 
 start();
 function start() {
