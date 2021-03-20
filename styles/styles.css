@@ -1,10 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
+    margin: 0px;
+  }
+  
 .pageWrap {
     margin-left:auto;
     margin-right:auto;
-    width: 95%;
+    width: 100%;
 }
 
 .headers {
@@ -46,27 +48,18 @@ table td:hover {
 
 h1 {
     text-align: center;
-    background: #e31837;
-    color: #111;
-    width: 75%;
+    background: #333;
+    color: #FFF;
+    width: 100%;
     font-size: 2em;
     margin: auto;
-    padding: 15px 25px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    padding: 15px 0px;
 
 }
 
 h2 {
     text-align: center;
-    color: #e31837;
-    font-size: 2em;
-    float: left
+    font-size: 1.5em;
 }
 
 .grey {

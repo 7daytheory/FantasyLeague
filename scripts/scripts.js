@@ -1,9 +1,12 @@
 
 const yourContainer = document.getElementById("leaderboard");
 
-const teamsList = new Array;
+let teamsList = [];
 
+const teamWrap = document.querySelector('#teamList');
 let teams;
+
+
 
 
 start();
@@ -15,18 +18,20 @@ fetch('https://statsapi.web.nhl.com/api/v1/teams')
       let team = data.teams;
       
       team.map((i) => {
-        console.log(i);
-        teamsList.push({team: i.name});
+        let h2tag = document.createElement('h2');
+        h2tag.append(i.name);
+        h2tag.id = 'h1' + i.shortName;
+        teamWrap.append(h2tag);
+        teamsList.push(i);
       })
-  })
-  
-  console.log(teamsList);
 
-populateContent();
+  }).then(() => {
+    populateContent();
+  })
 }
 
 function populateContent() {
-      console.log(`Number of teams: ${teamsList}`);
+  console.log(`Number of teams: ${teamsList.length}`);
 }
 
 function createArray(a, b) {
