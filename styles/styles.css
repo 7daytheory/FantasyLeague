@@ -142,3 +142,14 @@ h2 {
 .nameAlign {
     padding-left: 35px;
 }
+
+.teamList div {
+  width: 80%;
+  margin-left: 10%;
+  padding: 2px;
+  border: thin solid #333;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
