@@ -1,8 +1,5 @@
 
 const yourContainer = document.getElementById("leaderboard");
-
-let teamsList = [];
-
 const teamWrap = document.querySelector('.teamList');
 let teams;
 
@@ -22,7 +19,8 @@ fetch('https://statsapi.web.nhl.com/api/v1/teams')
         createDivElement(div, i.name);
         h2tag = 'h2' + i.abbreviation;
         createH2Element(h2tag, i.name, i.abbreviation);
-        teamsList.push(i);
+        
+        createTeamArray(i.abbreviation, i.id);
       })
   }).then(() => {
     console.log("Do some stuff...")
@@ -52,7 +50,19 @@ function createH2Element(id, value, div) {
   divWrap.append(h2);
 }
 
-function createArray(a, b) {
-    var item = { name: a, score: b };
-    array.push(item);
+function createTeamArray(team, id) {
+  console.log(team, id);
+  
+  teamArray = [team, {}];
+  
+  fetch('https://statsapi.web.nhl.com/api/v1/teams/' + id)
+    .then(response => response.json())
+    .then((data) => {
+      let teamData = data.teams;
+      console.log(teamData);
+      
+      teamData.map((i) => {
+        
+      })
+    })
 }

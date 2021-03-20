@@ -21,5 +21,10 @@ function createH2Element(id, value, div) {
   //Append to div
   let divWrap = document.getElementById(div);
   divWrap.append(h2);
-}
+  }
+  
+  function createTeamArray(team, id) {
+    console.log(team, id)
+    
+  }
 }
