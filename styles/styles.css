@@ -24,7 +24,16 @@ h1 {
 h2 {
     text-align: center;
     font-size: 1.5em;
-    margin-top: 0px;
+    margin: 0;
+    padding: 5px 0px;
+    background: #333;
+    color: #FFF;
+}
+
+.notice {
+  font-size: 0.75em;
+  color: #333;
+  text-align: center;
 }
 
 .logo {
@@ -37,9 +46,17 @@ h2 {
 .teamList div {
   width: 80%;
   margin-left: 10%;
+  margin-top: 15px;
+  min-height: 100px;
   border: thin solid #333;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
   -moz-border-radius: 3px;
+}
+
+.teamList p {
+  margin-left: 5px;
+  font-size: 0.7em;
+  margin-top: 10px;
 }
