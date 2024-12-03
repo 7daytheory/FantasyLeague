@@ -6,22 +6,9 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-<p align="center">
-  <img src="https://www.mattjlowe.com/fantasy/images/logo.png" alt="logo">
-  </a>
+<p align="center">This WAS a custom NHL fantasy league for my friends and I, but since it's just easier to use the pre-made ones I changed it into a general NHL hockey stats page</p>
 
   <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    Fantasy Hockey - Pool of pools 2020
-    <br />
-    <a href="hwww.mattjlowe.com/fantasy">View Demo</a>
-    ·
-    <a href="#">Report Bug(Coming Soon)</a>
-    ·
-    <a href="#">Coming Soon</a>
-  </p>
-</p>
 
 
 
